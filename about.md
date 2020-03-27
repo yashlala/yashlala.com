@@ -12,6 +12,10 @@ amateurish styling.
 If you have feedback or just want a chat, feel free to contact me via the links
 below!
 
+| ![me](/assets/yash.jpg) | 
+|:--:| 
+| *help how do I center images* |
+
 Cheers, 
 
 Yash Lala
