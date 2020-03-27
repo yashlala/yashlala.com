@@ -9,13 +9,13 @@ a part of my first effort to set up a website.
 The contents of these pages will change, so please forgive any gaudy colors or
 amateurish styling. 
 
-If you have feedback or just want a chat, feel free to contact me via the links
-below!
+If you have feedback or just want to chat, feel free to contact me via the
+links below!
+
+Cheers, 
+
+Yash
 
 | ![me](/assets/yash.jpg) | 
 |:--:| 
 | *help how do I center images* |
-
-Cheers, 
-
-Yash Lala
