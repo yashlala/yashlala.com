@@ -18,6 +18,7 @@ Cheers,
 
 Yash
 
-| ![me](/assets/yash.jpg) | 
-|:--:| 
-| My beautiful face. |
+<figure class="image">
+  <img src="/assets/yash.jpg" alt="">
+  <figcaption>My beautiful face.</figcaption>
+</figure>
