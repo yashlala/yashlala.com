@@ -20,4 +20,4 @@ links at the bottom of the page!
 
 {{< figure src="/img/yash.png" 
 alt="Yash Lala's face (and upper torso)" 
-caption="My beautiful face." >}}
+caption="My face." >}}
