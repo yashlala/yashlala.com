@@ -41,7 +41,7 @@ pygmentsUseClasses  = true
   relatedPosts = false  # Add a related content section to all single posts page
 
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
-  
+
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
 
@@ -66,7 +66,7 @@ pygmentsUseClasses  = true
 
   [[menu.main]]
     name = "Resume"
-    url = "https://github.com/yashlala/resume/blob/master/resume.pdf"
+    url = "https://raw.githubusercontent.com/yashlala/resume/master/resume.pdf"
     weight = 20
 
   # [[menu.main]]
