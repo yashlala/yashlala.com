@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding problems on Yash Lala</title>
+    <link>https://yashlala.github.io/tags/coding-problems/</link>
+    <description>Recent content in coding problems on Yash Lala</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.github.io/tags/coding-problems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Knuth-Morris-Pratt (KMP) Pattern Matching</title>
+      <link>https://yashlala.github.io/posts/kmp-pattern-matching/</link>
+      <pubDate>Tue, 05 Jan 2021 14:24:25 -0800</pubDate>
+      
+      <guid>https://yashlala.github.io/posts/kmp-pattern-matching/</guid>
+      <description>= Context
+The KMP algorithm describes a method for finding a length-m string in a length-n string in O(m+n) time.
+There are plenty of online resources describing the algorithm&amp;rsquo;s implementation. I couldn&amp;rsquo;t find many satisfactory explanations as to why it works, so I decided to write up some notes myself.
+This post documents an effort to construct the KMP Algorithm from the ground up. It&amp;rsquo;ll focus on the intuitions behind the process; to get familiar with the mechanics of the algorithm, I&amp;rsquo;d recommend watching Tushar Roy&amp;rsquo;s excellent two-part video on the topic https://youtu.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,29 @@
     <link>https://yashlala.github.io/</link>
     <description>Recent content on Yash Lala</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://yashlala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Knuth-Morris-Pratt (KMP) Pattern Matching</title>
+      <link>https://yashlala.github.io/posts/kmp-pattern-matching/</link>
+      <pubDate>Tue, 05 Jan 2021 14:24:25 -0800</pubDate>
+      
+      <guid>https://yashlala.github.io/posts/kmp-pattern-matching/</guid>
+      <description>= Context
+The KMP algorithm describes a method for finding a length-m string in a length-n string in O(m+n) time.
+There are plenty of online resources describing the algorithm&amp;rsquo;s implementation. I couldn&amp;rsquo;t find many satisfactory explanations as to why it works, so I decided to write up some notes myself.
+This post documents an effort to construct the KMP Algorithm from the ground up. It&amp;rsquo;ll focus on the intuitions behind the process; to get familiar with the mechanics of the algorithm, I&amp;rsquo;d recommend watching Tushar Roy&amp;rsquo;s excellent two-part video on the topic https://youtu.</description>
+    </item>
+    
+    <item>
+      <title>CS 111: Operating Systems</title>
+      <link>https://yashlala.github.io/notes/cs-111/</link>
+      <pubDate>Mon, 28 Dec 2020 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.github.io/notes/cs-111/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>About Me</title>
       <link>https://yashlala.github.io/about/</link>
@@ -13,8 +35,7 @@
       
       <guid>https://yashlala.github.io/about/</guid>
       <description>My name is Yash Lala. I&amp;rsquo;m a third-year CS undergraduate student at UCLA. My interests include parallel computation, distributed system design, and climbing.
-This page is still under construction (as of 2020-12-02).
-I&amp;rsquo;ve just migrated from my &amp;ldquo;handmade&amp;rdquo; original site to this hugo based setup. I haven&amp;rsquo;t customized the site to my liking yet, though; there may be some rough edges. Please forgive any gaudy colors or styling.
+This page is under construction in much the same way that a stalagmite is under construction. Don&amp;rsquo;t expect to see quick changes around here ;)
 If you have feedback or just want to chat, feel free to contact me via the links at the bottom of the page!</description>
     </item>
     

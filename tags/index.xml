@@ -5,6 +5,16 @@
     <link>https://yashlala.github.io/tags/</link>
     <description>Recent content in Tags on Yash Lala</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://yashlala.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coding problems</title>
+      <link>https://yashlala.github.io/tags/coding-problems/</link>
+      <pubDate>Tue, 05 Jan 2021 14:24:25 -0800</pubDate>
+      
+      <guid>https://yashlala.github.io/tags/coding-problems/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

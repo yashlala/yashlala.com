@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Yash Lala</title>
+    <link>https://yashlala.github.io/notes/</link>
+    <description>Recent content in Notes on Yash Lala</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Dec 2020 19:14:45 -0800</lastBuildDate><atom:link href="https://yashlala.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS 111: Operating Systems</title>
+      <link>https://yashlala.github.io/notes/cs-111/</link>
+      <pubDate>Mon, 28 Dec 2020 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.github.io/notes/cs-111/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
