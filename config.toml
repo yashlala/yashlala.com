@@ -1,4 +1,4 @@
-baseURL = "https://yashlala.com/"
+baseURL = "https://yashlala.github.io/"
 relativeURLs = true
 languageCode = "en-us"
 publishdir = "build"
