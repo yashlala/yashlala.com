@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Yash Lala</title>
-		<link>https://yashlala.github.io/posts/</link>
+		<link>https://yashlala.com/posts/</link>
 		<description>Recent content in Posts on Yash Lala</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate>
-		<atom:link href="https://yashlala.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://yashlala.com/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Building Knuth-Morris-Pratt (KMP) Pattern Matching</title>
-			<link>https://yashlala.github.io/posts/kmp-pattern-matching/</link>
+			<link>https://yashlala.com/posts/kmp-pattern-matching/</link>
 			<pubDate>Tue, 05 Jan 2021 14:24:25 -0800</pubDate>
 			
-			<guid>https://yashlala.github.io/posts/kmp-pattern-matching/</guid>
+			<guid>https://yashlala.com/posts/kmp-pattern-matching/</guid>
 			<description>= Context
 The KMP algorithm describes a method for finding a length-m string in a length-n string in O(m+n) time.
 There are plenty of online resources describing the algorithm&amp;rsquo;s implementation. I couldn&amp;rsquo;t find many satisfactory explanations as to why it works, so I decided to write up some notes myself.
@@ -65,7 +65,7 @@ the word <code>yeet</code>). To determine if our candidate string is valid, we c
 matching until we either succeed finding <code>yeet</code> or find a mismatch (eg.
 <code>yeel</code>).</p>
 <p>Take a look at our numbered candidate strings below:</p>
-<pre><code>yeem yeel yeef yeet
+<pre tabindex="0"><code>yeem yeel yeef yeet
 1--- 2--- 3--- 4---
 </code></pre><p>However, there are some &ldquo;problem strings&rdquo; for which this approach doesn&rsquo;t
 work. Consider the following example:</p>
@@ -78,7 +78,7 @@ But we can&rsquo;t keep going just yet; we&rsquo;ll miss the pattern!
 Rather than start scanning for a <code>e</code> again, we have to step <em>back</em>
 and look at the <code>e</code> we&rsquo;ve most recently scanned.
 Let&rsquo;s take a look at our numbered candidate strings to illustrate:</p>
-<pre><code>eteted
+<pre tabindex="0"><code>eteted
 1---
   2---
 </code></pre><p>This brings us to Issue 2:</p>
