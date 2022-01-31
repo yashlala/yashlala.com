@@ -4,7 +4,7 @@ date: 2020-12-02T12:15:53-08:00
 draft: false
 ---
 
-My name is Yash Lala. I'm a third-year CS undergraduate student at UCLA.
+My name is Yash Lala. I'm a fourth-year CS undergraduate student at UCLA.
 My interests include parallel computation, distributed system design,
 and climbing.
 
