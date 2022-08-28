@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yash Lala</title>
-    <link>https://yashlala.github.io/</link>
+    <link>https://yashlala.com/</link>
     <description>Recent content on Yash Lala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Knuth-Morris-Pratt (KMP) Pattern Matching</title>
-      <link>https://yashlala.github.io/posts/kmp-pattern-matching/</link>
+      <link>https://yashlala.com/posts/kmp-pattern-matching/</link>
       <pubDate>Tue, 05 Jan 2021 14:24:25 -0800</pubDate>
       
-      <guid>https://yashlala.github.io/posts/kmp-pattern-matching/</guid>
+      <guid>https://yashlala.com/posts/kmp-pattern-matching/</guid>
       <description>= Context
 The KMP algorithm describes a method for finding a length-m string in a length-n string in O(m+n) time.
 There are plenty of online resources describing the algorithm&amp;rsquo;s implementation. I couldn&amp;rsquo;t find many satisfactory explanations as to why it works, so I decided to write up some notes myself.
@@ -21,20 +21,20 @@ This post documents an effort to construct the KMP Algorithm from the ground up.
     
     <item>
       <title>CS 111: Operating Systems</title>
-      <link>https://yashlala.github.io/notes/cs-111/</link>
+      <link>https://yashlala.com/notes/cs-111/</link>
       <pubDate>Mon, 28 Dec 2020 19:14:45 -0800</pubDate>
       
-      <guid>https://yashlala.github.io/notes/cs-111/</guid>
+      <guid>https://yashlala.com/notes/cs-111/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>https://yashlala.github.io/about/</link>
+      <link>https://yashlala.com/about/</link>
       <pubDate>Wed, 02 Dec 2020 12:15:53 -0800</pubDate>
       
-      <guid>https://yashlala.github.io/about/</guid>
-      <description>My name is Yash Lala. I&amp;rsquo;m a third-year CS undergraduate student at UCLA. My interests include parallel computation, distributed system design, and climbing.
+      <guid>https://yashlala.com/about/</guid>
+      <description>My name is Yash Lala. I&amp;rsquo;m a fourth-year CS undergraduate student at UCLA. My interests include parallel computation, distributed system design, and climbing.
 This page is under construction in much the same way that a stalagmite is under construction. Don&amp;rsquo;t expect to see quick changes around here ;)
 If you have feedback or just want to chat, feel free to contact me via the links at the bottom of the page!</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yash Lala</title>
-    <link>https://yashlala.github.io/tags/</link>
+    <link>https://yashlala.com/tags/</link>
     <description>Recent content in Tags on Yash Lala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>coding problems</title>
-      <link>https://yashlala.github.io/tags/coding-problems/</link>
+      <link>https://yashlala.com/tags/coding-problems/</link>
       <pubDate>Tue, 05 Jan 2021 14:24:25 -0800</pubDate>
       
-      <guid>https://yashlala.github.io/tags/coding-problems/</guid>
+      <guid>https://yashlala.com/tags/coding-problems/</guid>
       <description></description>
     </item>
     
