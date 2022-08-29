@@ -12,7 +12,7 @@ Since then, I've been working full time at
 [Prof. Harry Xu](http://web.cs.ucla.edu/~harryxu). 
 
 I'm broadly interested in systems for efficient data-center scale computing. 
-My current work focuses on 
+My recent work focuses on 
 [disaggregated memory](https://arxiv.org/pdf/2202.02223.pdf) based systems. 
 
 {{< figure src="/img/yash.png"
@@ -21,9 +21,9 @@ caption="My face." >}}
 
 My current project involves tweaking the Linux kernel's swap subsystems to
 allow for cgroup-based control of active swap partitions, per-cgroup swap
-caches, and more. This has positive implications for swap throughput -- but
-more importantly, it makes it easy to develop and control frontswap-based
-remote memory systems [^1]. 
+caches isolation, and more. This has positive implications for swap throughput
+--- but more importantly, it makes it easy to develop and control
+frontswap-based remote memory systems [^1]. 
 
 If you'd like to chat, you can find me at
 `yashlala [at] ucla [dot] edu`, or via the links on the bottom right. 
