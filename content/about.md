@@ -8,7 +8,7 @@ Hello! I'm Yash.
 
 I finished my B.S. in Computer Science in Spring 2022. 
 Since then, I've been working full time at 
-[SOLAR](http://systems.cs.ucla.edu/projects.html) under the supervision of
+[SOLAR](http://systems.cs.ucla.edu/) under the supervision of
 [Prof. Harry Xu](http://web.cs.ucla.edu/~harryxu). 
 
 I'm broadly interested in systems for efficient data-center scale computing. 
