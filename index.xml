@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About Me</title>
+      <link>https://yashlala.com/about/</link>
+      <pubDate>Fri, 26 Aug 2022 12:15:53 -0800</pubDate>
+      
+      <guid>https://yashlala.com/about/</guid>
+      <description>Hello! I&amp;rsquo;m Yash.
+I finished my B.S. in Computer Science in Spring 2022. Since then, I&amp;rsquo;ve been working full time at SOLAR under the supervision of Prof. Harry Xu.
+I&amp;rsquo;m broadly interested in systems for efficient data-center scale computing. My current work focuses on disaggregated memory based systems.
+My face.
+My current project involves tweaking the Linux kernel&amp;rsquo;s swap subsystems to allow for cgroup-based control of active swap partitions, per-cgroup swap caches, and more.</description>
+    </item>
+    
+    <item>
       <title>Building Knuth-Morris-Pratt (KMP) Pattern Matching</title>
       <link>https://yashlala.com/posts/kmp-pattern-matching/</link>
       <pubDate>Tue, 05 Jan 2021 14:24:25 -0800</pubDate>
@@ -26,17 +39,6 @@ This post documents an effort to construct the KMP Algorithm from the ground up.
       
       <guid>https://yashlala.com/notes/cs-111/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://yashlala.com/about/</link>
-      <pubDate>Wed, 02 Dec 2020 12:15:53 -0800</pubDate>
-      
-      <guid>https://yashlala.com/about/</guid>
-      <description>My name is Yash Lala. I&amp;rsquo;m a fourth-year CS undergraduate student at UCLA. My interests include parallel computation, distributed system design, and climbing.
-This page is under construction in much the same way that a stalagmite is under construction. Don&amp;rsquo;t expect to see quick changes around here ;)
-If you have feedback or just want to chat, feel free to contact me via the links at the bottom of the page!</description>
     </item>
     
   </channel>
