@@ -21,7 +21,7 @@ caption="My face." >}}
 
 My current project involves tweaking the Linux kernel's swap subsystems to
 allow for cgroup-based control of active swap partitions, per-cgroup swap
-caches isolation, and more. This has positive implications for swap throughput
+cache isolation, and more. This has positive implications for swap throughput
 --- but more importantly, it makes it easy to develop and control
 frontswap-based remote memory systems [^1]. 
 
