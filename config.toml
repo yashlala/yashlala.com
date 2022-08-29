@@ -29,7 +29,7 @@ pygmentsUseClasses  = true
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "My Personal Website (v2)"
+  homeSubtitle = "Personal Website v2"
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -60,7 +60,7 @@ pygmentsUseClasses  = true
 [menu]
 
   [[menu.main]]
-    name = "About Me"
+    name = "About"
     url = "about/"
     weight = 10
 

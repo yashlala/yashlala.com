@@ -1,19 +1,31 @@
 ---
 title: "About Me"
-date: 2020-12-02T12:15:53-08:00
+date: 2022-08-26T12:15:53-08:00
 draft: false
 ---
 
-My name is Yash Lala. I'm a fourth-year CS undergraduate student at UCLA.
-My interests include parallel computation, distributed system design,
-and climbing.
+Hello! I'm Yash. 
 
-This page is under construction in much the same way that a stalagmite is under
-construction. Don't expect to see quick changes around here ;)
+I finished my B.S. in Computer Science in Spring 2022. 
+Since then, I've been working full time at 
+[SOLAR](http://systems.cs.ucla.edu/projects.html) under the supervision of
+[Prof. Harry Xu](http://web.cs.ucla.edu/~harryxu). 
 
-If you have feedback or just want to chat, feel free to contact me via the
-links at the bottom of the page!
+I'm broadly interested in systems for efficient data-center scale computing. 
+My current work focuses on 
+[disaggregated memory](https://arxiv.org/pdf/2202.02223.pdf) based systems. 
 
 {{< figure src="/img/yash.png"
-alt="Yash Lala's face (and upper torso)"
+alt="My face."
 caption="My face." >}}
+
+My current project involves tweaking the Linux kernel's swap subsystems to
+allow for cgroup-based control of active swap partitions, per-cgroup swap
+caches, and more. This has positive implications for swap throughput -- but
+more importantly, it makes it easy to develop and control frontswap-based
+remote memory systems [^1]. 
+
+If you'd like to chat, you can find me at
+`yashlala [at] ucla [dot] edu`, or via the links on the bottom right. 
+
+[^1]: See [Canvas](https://arxiv.org/abs/2203.09615) for details. 
