@@ -6,7 +6,7 @@
     <description>Recent content on Yash Lala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 14:24:25 -0800</lastBuildDate><atom:link href="https://yashlala.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Aug 2022 12:15:53 -0800</lastBuildDate><atom:link href="https://yashlala.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://yashlala.com/about/</link>
@@ -15,9 +15,63 @@
       <guid>https://yashlala.com/about/</guid>
       <description>Hello! I&amp;rsquo;m Yash.
 I finished my B.S. in Computer Science in Spring 2022. Since then, I&amp;rsquo;ve been working full time at SOLAR under the supervision of Prof. Harry Xu.
-I&amp;rsquo;m broadly interested in systems for efficient data-center scale computing. My current work focuses on disaggregated memory based systems.
+I&amp;rsquo;m broadly interested in systems for efficient data-center scale computing. My recent work focuses on disaggregated memory based systems.
 My face.
-My current project involves tweaking the Linux kernel&amp;rsquo;s swap subsystems to allow for cgroup-based control of active swap partitions, per-cgroup swap caches, and more.</description>
+My current project involves tweaking the Linux kernel&amp;rsquo;s swap subsystems to allow for cgroup-based control of active swap partitions, per-cgroup swap caches isolation, and more.</description>
+    </item>
+    
+    <item>
+      <title>CS 183EW: Engineering Ethics</title>
+      <link>https://yashlala.com/notes/cs-183ew/</link>
+      <pubDate>Mon, 28 Feb 2022 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.com/notes/cs-183ew/</guid>
+      <description>Taken Winter 2021, with Prof. Gershon Weltman. Nicely typeset PDF available here.</description>
+    </item>
+    
+    <item>
+      <title>CS 132: Compiler Construction</title>
+      <link>https://yashlala.com/notes/cs-132/</link>
+      <pubDate>Fri, 28 Jan 2022 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.com/notes/cs-132/</guid>
+      <description>Taken Fall 2021, with Prof. Jens Palsberg. What a great class. Nicely typeset PDF available here.</description>
+    </item>
+    
+    <item>
+      <title>CS M151B: Computer Architecture</title>
+      <link>https://yashlala.com/notes/cs-m151b/</link>
+      <pubDate>Tue, 28 Dec 2021 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.com/notes/cs-m151b/</guid>
+      <description>Taken Winter 2021, with Prof. Glenn Reinman. Great class. Nicely typeset PDF available here.</description>
+    </item>
+    
+    <item>
+      <title>CS 131: Programming Languages</title>
+      <link>https://yashlala.com/notes/cs-131/</link>
+      <pubDate>Sat, 13 Nov 2021 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.com/notes/cs-131/</guid>
+      <description>Taken Winter 2020, with Prof. Paul Eggert. Nicely typeset PDF available here.</description>
+    </item>
+    
+    <item>
+      <title>CS 143: Intro to Databases</title>
+      <link>https://yashlala.com/notes/cs-143/</link>
+      <pubDate>Sat, 13 Nov 2021 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.com/notes/cs-143/</guid>
+      <description>Taken Spring 2021, with Prof. John Cho. PDF available here.</description>
+    </item>
+    
+    <item>
+      <title>Ling 1: Intro to Linguistics</title>
+      <link>https://yashlala.com/notes/ling-1/</link>
+      <pubDate>Sun, 28 Mar 2021 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.com/notes/ling-1/</guid>
+      <description>Taken Winter 2021. Fully asynchronous class. PDF available here.</description>
     </item>
     
     <item>
@@ -35,10 +89,19 @@ This post documents an effort to construct the KMP Algorithm from the ground up.
     <item>
       <title>CS 111: Operating Systems</title>
       <link>https://yashlala.com/notes/cs-111/</link>
-      <pubDate>Mon, 28 Dec 2020 19:14:45 -0800</pubDate>
+      <pubDate>Sat, 28 Dec 2019 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/notes/cs-111/</guid>
-      <description></description>
+      <description>Taken Fall 2019, with Prof. Paul Eggert. Nicely typeset PDF available here.</description>
+    </item>
+    
+    <item>
+      <title>Hist 3A: History of Science</title>
+      <link>https://yashlala.com/notes/hist-3a/</link>
+      <pubDate>Sat, 28 Dec 2019 19:14:45 -0800</pubDate>
+      
+      <guid>https://yashlala.com/notes/hist-3a/</guid>
+      <description>Taken Fall 2019, with Prof. Amir Alexander. Nicely typeset PDF available here.</description>
     </item>
     
   </channel>
