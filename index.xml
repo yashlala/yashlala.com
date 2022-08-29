@@ -17,7 +17,7 @@
 I finished my B.S. in Computer Science in Spring 2022. Since then, I&amp;rsquo;ve been working full time at SOLAR under the supervision of Prof. Harry Xu.
 I&amp;rsquo;m broadly interested in systems for efficient data-center scale computing. My recent work focuses on disaggregated memory based systems.
 My face.
-My current project involves tweaking the Linux kernel&amp;rsquo;s swap subsystems to allow for cgroup-based control of active swap partitions, per-cgroup swap caches isolation, and more.</description>
+My current project involves tweaking the Linux kernel&amp;rsquo;s swap subsystems to allow for cgroup-based control of active swap partitions, per-cgroup swap cache isolation, and more.</description>
     </item>
     
     <item>
