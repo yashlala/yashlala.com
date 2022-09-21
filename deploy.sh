@@ -1,4 +1,6 @@
-#!/bin/sh -e
+#!/bin/bash -e
+
+cd "$(dirname -- "$(readlink -f -- "$0")")"
 
 hugo
 cd build
