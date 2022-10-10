@@ -26,6 +26,7 @@ cache isolation, and more. This has positive implications for swap throughput
 frontswap-based remote memory systems [^1]. 
 
 If you'd like to chat, you can find me at
-`yashlala [at] ucla [dot] edu`, or via the links on the bottom right. 
+`yashlala [at] ucla [dot] edu`, or via the icons on the bottom right. 
+Those same icons lead to my [GitHub](https://github.com/yashlala), etc. 
 
 [^1]: See [Canvas](https://arxiv.org/abs/2203.09615) for details. 
