@@ -13,4 +13,4 @@ In this presentation, I talk about:
 - The benefits of lax consistency models for distributed systems. 
 - A walkthrough of Lamport clocks. 
 
-Slides available [here](/binary-search-club/defining-time-in-distributed-systems.pdf). 
+Slides available [here](/binary-search-club/defining-time.pdf). 
