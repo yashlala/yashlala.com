@@ -1,7 +1,9 @@
 ---
 title: "Binary Search Club"
 date: 2022-08-26T12:15:53-08:00
+summary: "A collection of my presentations to the Binary Search Club (BSC) during my undergrad."
 draft: false
+weight: 3
 ---
 
 A collection of materials from my presentations to the Binary Search Club (BSC)
