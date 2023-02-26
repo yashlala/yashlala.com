@@ -2,73 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yashlala.com/about/</loc>
+    <loc>https://yashlala.com/docs/binary-search-club/</loc>
     <lastmod>2022-08-26T12:15:53-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/binary-search-club/</loc>
+    <loc>https://yashlala.com/docs/notes/</loc>
     <lastmod>2022-08-26T12:15:53-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/notes/</loc>
+    <loc>https://yashlala.com/docs/</loc>
     <lastmod>2022-08-26T12:15:53-08:00</lastmod>
   </url><url>
     <loc>https://yashlala.com/</loc>
     <lastmod>2022-08-26T12:15:53-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/notes/cs-183ew/</loc>
+    <loc>https://yashlala.com/docs/notes/cs-183ew/</loc>
     <lastmod>2022-02-28T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/notes/cs-132/</loc>
+    <loc>https://yashlala.com/docs/notes/cs-132/</loc>
     <lastmod>2022-01-28T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/binary-search-club/deep-sea-evolution/</loc>
+    <loc>https://yashlala.com/docs/binary-search-club/deep-sea-evolution/</loc>
     <lastmod>2022-01-15T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/binary-search-club/real-git/</loc>
+    <loc>https://yashlala.com/docs/binary-search-club/real-git/</loc>
     <lastmod>2021-12-31T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/notes/cs-m151b/</loc>
+    <loc>https://yashlala.com/docs/notes/cs-m151b/</loc>
     <lastmod>2021-12-28T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/binary-search-club/two-webs/</loc>
+    <loc>https://yashlala.com/docs/binary-search-club/two-webs/</loc>
     <lastmod>2021-12-17T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/notes/cs-131/</loc>
+    <loc>https://yashlala.com/docs/notes/cs-131/</loc>
     <lastmod>2021-11-13T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/notes/cs-143/</loc>
+    <loc>https://yashlala.com/docs/notes/cs-143/</loc>
     <lastmod>2021-11-13T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/binary-search-club/spanner/</loc>
+    <loc>https://yashlala.com/docs/binary-search-club/spanner/</loc>
     <lastmod>2021-10-17T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/binary-search-club/terminal-protocols/</loc>
+    <loc>https://yashlala.com/docs/binary-search-club/terminal-protocols/</loc>
     <lastmod>2021-10-03T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/binary-search-club/defining-time/</loc>
+    <loc>https://yashlala.com/docs/binary-search-club/defining-time/</loc>
     <lastmod>2021-05-15T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/binary-search-club/containers/</loc>
+    <loc>https://yashlala.com/docs/binary-search-club/containers/</loc>
     <lastmod>2021-04-10T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/notes/ling-1/</loc>
+    <loc>https://yashlala.com/docs/notes/ling-1/</loc>
     <lastmod>2021-03-28T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/posts/kmp-pattern-matching/</loc>
-    <lastmod>2021-01-05T14:24:25-08:00</lastmod>
+    <loc>https://yashlala.com/docs/notes/cs-111/</loc>
+    <lastmod>2019-12-28T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/tags/coding-problems/</loc>
-    <lastmod>2021-01-05T14:24:25-08:00</lastmod>
+    <loc>https://yashlala.com/docs/notes/hist-3a/</loc>
+    <lastmod>2019-12-28T19:14:45-08:00</lastmod>
   </url><url>
-    <loc>https://yashlala.com/posts/</loc>
-    <lastmod>2021-01-05T14:24:25-08:00</lastmod>
+    <loc>https://yashlala.com/categories/</loc>
   </url><url>
     <loc>https://yashlala.com/tags/</loc>
-    <lastmod>2021-01-05T14:24:25-08:00</lastmod>
-  </url><url>
-    <loc>https://yashlala.com/notes/cs-111/</loc>
-    <lastmod>2019-12-28T19:14:45-08:00</lastmod>
-  </url><url>
-    <loc>https://yashlala.com/notes/hist-3a/</loc>
-    <lastmod>2019-12-28T19:14:45-08:00</lastmod>
   </url>
 </urlset>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yash Lala</title>
-    <link>https://yashlala.com/</link>
-    <description>Recent content on Yash Lala</description>
+    <title>Notes on Yash Lala</title>
+    <link>https://yashlala.com/docs/notes/</link>
+    <description>Recent content in Notes on Yash Lala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Aug 2022 12:15:53 -0800</lastBuildDate><atom:link href="https://yashlala.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Aug 2022 12:15:53 -0800</lastBuildDate><atom:link href="https://yashlala.com/docs/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CS 183EW: Engineering Ethics</title>
       <link>https://yashlala.com/docs/notes/cs-183ew/</link>
@@ -26,38 +26,11 @@
     </item>
     
     <item>
-      <title>Evolution in the Deep Sea</title>
-      <link>https://yashlala.com/docs/binary-search-club/deep-sea-evolution/</link>
-      <pubDate>Sat, 15 Jan 2022 19:14:45 -0800</pubDate>
-      
-      <guid>https://yashlala.com/docs/binary-search-club/deep-sea-evolution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Real Git</title>
-      <link>https://yashlala.com/docs/binary-search-club/real-git/</link>
-      <pubDate>Fri, 31 Dec 2021 19:14:45 -0800</pubDate>
-      
-      <guid>https://yashlala.com/docs/binary-search-club/real-git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CS M151B: Computer Architecture</title>
       <link>https://yashlala.com/docs/notes/cs-m151b/</link>
       <pubDate>Tue, 28 Dec 2021 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/notes/cs-m151b/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Two Webs</title>
-      <link>https://yashlala.com/docs/binary-search-club/two-webs/</link>
-      <pubDate>Fri, 17 Dec 2021 19:14:45 -0800</pubDate>
-      
-      <guid>https://yashlala.com/docs/binary-search-club/two-webs/</guid>
       <description></description>
     </item>
     
@@ -76,42 +49,6 @@
       <pubDate>Sat, 13 Nov 2021 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/notes/cs-143/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spanner: Google vs the CAP Theorem</title>
-      <link>https://yashlala.com/docs/binary-search-club/spanner/</link>
-      <pubDate>Sun, 17 Oct 2021 19:14:45 -0800</pubDate>
-      
-      <guid>https://yashlala.com/docs/binary-search-club/spanner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer Terminal Protocols</title>
-      <link>https://yashlala.com/docs/binary-search-club/terminal-protocols/</link>
-      <pubDate>Sun, 03 Oct 2021 19:14:45 -0800</pubDate>
-      
-      <guid>https://yashlala.com/docs/binary-search-club/terminal-protocols/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Defining Time in Distributed Systems</title>
-      <link>https://yashlala.com/docs/binary-search-club/defining-time/</link>
-      <pubDate>Sat, 15 May 2021 19:14:45 -0800</pubDate>
-      
-      <guid>https://yashlala.com/docs/binary-search-club/defining-time/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Containers</title>
-      <link>https://yashlala.com/docs/binary-search-club/containers/</link>
-      <pubDate>Sat, 10 Apr 2021 19:14:45 -0800</pubDate>
-      
-      <guid>https://yashlala.com/docs/binary-search-club/containers/</guid>
       <description></description>
     </item>
     

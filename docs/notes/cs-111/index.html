@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Yash Lala</title>
+<title>CS 111: Operating Systems | Notes | Yash Lala</title>
 
 <meta name="generator" content="Hugo Eureka 0.9.3" />
 <link rel="stylesheet" href="https://yashlala.com/css/eureka.min.9cec6350e37e534b0338fa9a085bf06855de3b0f2dcf857e792e5e97b07ea905d4d5513db554cbc26a9c3da622bae92d.css">
@@ -74,24 +74,62 @@
 
 <meta name="description"
   content="Yash Lala&#39;s personal website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Resources",
+      "item":"https://yashlala.com/docs/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Notes",
+      "item":"https://yashlala.com/docs/notes/"},{
+      "@type": "ListItem",
+      "position": 3 ,
+      "name":"CS 111: Operating Systems",
+      "item":"https://yashlala.com/docs/notes/cs-111/"}]
+}
+</script>
 
 
 
-<meta property="og:title" content="Yash Lala" />
-<meta property="og:type" content="website" />
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://yashlala.com/docs/notes/cs-111/"
+    },
+    "headline": "CS 111: Operating Systems | Notes | Yash Lala","datePublished": "2019-12-28T19:14:45-08:00",
+    "dateModified": "2019-12-28T19:14:45-08:00",
+    "wordCount":  12 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Yash Lala",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://yashlala.com/images/snail-256x256.png"
+        }
+        },
+    "description": "Yash Lala\u0027s personal website"
+}
+</script><meta property="og:title" content="CS 111: Operating Systems | Notes | Yash Lala" />
+<meta property="og:type" content="article" />
 
 
 <meta property="og:image" content="https://yashlala.com/images/snail-256x256.png">
 
 
-<meta property="og:url" content="https://yashlala.com/tags/" />
+<meta property="og:url" content="https://yashlala.com/docs/notes/cs-111/" />
 
 
 
 
-
-<meta property="og:description" content="Yash Lala&#39;s personal website" />
-
+<meta property="og:description" content="" />
 
 
 
@@ -108,12 +146,17 @@
 
 
 
+<meta property="article:published_time" content="2019-12-28T19:14:45-08:00" />
 
 
-<meta property="article:section" content="tags" />
+<meta property="article:modified_time" content="2019-12-28T19:14:45-08:00" />
 
 
-<link rel="alternate" type="application/rss+xml" href="https://yashlala.com/tags/index.xml" title="Yash Lala" />
+
+<meta property="article:section" content="docs" />
+
+
+
 
 
   <body class="flex min-h-screen flex-col">
@@ -137,7 +180,7 @@
         <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
             <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">About</a>
             <a href="/yash-lala-resume.pdf" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">CV</a>
-            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">Resources</a>
+            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">Resources</a>
         </div>
 
         <div class="flex">
@@ -188,14 +231,234 @@
     <main class="grow pt-16">
         <div class="pl-scrollbar">
           <div class="mx-auto w-full max-w-screen-xl lg:px-4 xl:px-8">
-  <article class="prose mx-6 my-8">
-  <h1>Tags</h1>
+
+
+<div class="lg:pt-12">
+    <div class="flex flex-col md:flex-row bg-secondary-bg rounded">
+        <div class="md:w-1/4 lg:w-1/5 border-e">
+            <div class="sticky top-16 pt-6">
+                
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-title" class="md:hidden mx-4 px-2 pt-4 pb-2 md:border-b text-tertiary-text md:text-primary-text">
+    <span class="font-semibold">Table of Contents</span>
+    <i class='fas fa-caret-right ms-1'></i>
+</div>
+
+<div id="sidebar-toc"
+    class="hidden md:block overflow-y-auto mx-6 md:mx-0 pe-6 pt-2 md:max-h-doc-sidebar bg-primary-bg md:bg-transparent">
+    <div class="flex flex-wrap ms-4 -me-2 p-2 bg-secondary-bg md:bg-primary-bg rounded">
+        <a class=" hover:text-eureka"
+            href="https://yashlala.com/docs/notes/">Notes</a>
+        
+        
+        
+
+
+    </div>
+    
+<ul class="ps-6">
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://yashlala.com/docs/notes/cs-183ew/">CS 183EW: Engineering Ethics</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://yashlala.com/docs/notes/cs-132/">CS 132: Compiler Construction</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://yashlala.com/docs/notes/cs-m151b/">CS M151B: Computer Architecture</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://yashlala.com/docs/notes/cs-131/">CS 131: Programming Languages</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://yashlala.com/docs/notes/cs-143/">CS 143: Intro to Databases</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://yashlala.com/docs/notes/ling-1/">Ling 1: Intro to Linguistics</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" text-eureka  hover:text-eureka"
+                href="https://yashlala.com/docs/notes/cs-111/">CS 111: Operating Systems</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://yashlala.com/docs/notes/hist-3a/">Hist 3A: History of Science</a>
+        </div>
+        
+    </li>
+    
+    
+</ul>
+
+</div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="w-full md:w-3/4 lg:w-4/5 pb-8 pt-2 md:pt-8">
+            <div class="flex">
+                <div class="w-full lg:w-3/4 px-6">
+                    <article class="prose">
+  <h1 class="mb-4">CS 111: Operating Systems</h1>
+
+  <div
+  class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center"
+>
+  <div class="me-6 my-2">
+    <i class="fas fa-calendar me-1"></i>
+    <span
+      >2019-12-28</span
+    >
+  </div>
+  <div class="me-6 my-2">
+    <i class="fas fa-clock me-1"></i>
+    <span>1 min read</span>
+  </div>
+
   
+
+  
+</div>
+
+
+  
+  
+
+  <p>Taken Fall 2019, with Prof. Paul Eggert.
+Nicely typeset PDF available <a href="/notes/cs-111.pdf">here</a>.</p>
+
 </article>
 
-  <div class="bg-secondary-bg rounded px-6 py-8">
-    
+                    
+                    
+                    
+
+                    
+
+
+
+                    
+  <div
+    class="-mx-2 mt-4 flex flex-col border-t px-2 pt-4 md:flex-row md:justify-between"
+  >
+    <div>
+      
+        <span class="text-primary-text block font-bold"
+          >Previous</span
+        >
+        <a href="https://yashlala.com/docs/notes/ling-1/" class="block">Ling 1: Intro to Linguistics</a>
+      
+    </div>
+    <div class="mt-4 md:mt-0 md:text-right">
+      
+        <span class="text-primary-text block font-bold">Next</span>
+        <a href="https://yashlala.com/docs/notes/hist-3a/" class="block">Hist 3A: History of Science</a>
+      
+    </div>
   </div>
+
+
+                    
+
+
+
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        
+        hljs.highlightAll();
+        changeSidebarHeight();
+        switchDocToc();
+    })
+</script>
+
+
+
+
+
+
+
+
 
           </div>
         </div>
