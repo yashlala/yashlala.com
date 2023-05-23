@@ -46,10 +46,12 @@ widget:
 
 Hello! I'm Yash. 
 
-I finished my B.S. in Computer Science in Spring 2022. 
-I'm broadly interested in systems for efficient data-center scale computing,
-although my recent work focuses on [disaggregated memory](https://arxiv.org/pdf/2202.02223.pdf) systems. 
+I received my B.S. in Computer Science from UCLA in Spring 2022, and am
+starting my Ph.D. at Yale in Fall 2023.  I'm broadly interested in systems for
+efficient data-center scale computing, although my recent work focuses on
+[disaggregated memory](https://arxiv.org/pdf/2202.02223.pdf) systems. 
 
 If you'd like to chat, you can find me at
-`yashlala [at] ucla [dot] edu`, or via the icons on the right.
-Those same icons lead to my [GitHub](https://github.com/yashlala), etc. 
+`yashlala [at] yale [dot] edu`. The icons on the right of the page lead to
+[GitHub](https://github.com/yashlala),
+[LinkedIn](https://www.linkedin.com/in/yashlala/), etc. 
