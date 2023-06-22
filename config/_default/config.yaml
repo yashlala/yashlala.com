@@ -3,9 +3,9 @@ title: Yash Lala
 publishDir: build
 
 # Uncomment when not installing with Hugo Modules
-# theme: eureka
+theme: eureka
 # Comment when not installing with Hugo Modules
-theme: wangchucheng.com/hugo-eureka
+# theme: wangchucheng.com/hugo-eureka
 # If you cannot access the Github mirror, you can also use the Gitee mirror: gitee.com/wangchucheng/hugo-eureka
 
 paginate: 5
