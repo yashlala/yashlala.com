@@ -6,14 +6,14 @@
     <description>Recent content in Binary Search Club on Yash Lala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 May 2023 12:15:53 -0800</lastBuildDate><atom:link href="https://yashlala.com/docs/binary-search-club/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 12:15:53 -0800</lastBuildDate><atom:link href="https://yashlala.com/docs/binary-search-club/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evolution in the Deep Sea</title>
       <link>https://yashlala.com/docs/binary-search-club/deep-sea-evolution/</link>
       <pubDate>Sat, 15 Jan 2022 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/binary-search-club/deep-sea-evolution/</guid>
-      <description></description>
+      <description>My first non-technical and non-historical topic! Today is meant as a change of pace before we go on hiatus for the quarter; it&amp;rsquo;s information-light and full of pretty pictures of ocean life.</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Fri, 31 Dec 2021 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/binary-search-club/real-git/</guid>
-      <description></description>
+      <description>This presentation is an intermediate-level guide to Git. It also serves as a primer to good version control conventions. If you&amp;rsquo;ve found yourself wondering why you have spurious &amp;ldquo;merged branch X into X&amp;rdquo; commits after a git pull, this presentation is for you.</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       <pubDate>Fri, 17 Dec 2021 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/binary-search-club/two-webs/</guid>
-      <description></description>
+      <description>In this presentation, I talk about a shift in the nature of the World Wide Web&amp;rsquo;s content delivery systems &amp;ndash; a shift from &amp;ldquo;automatically downloading documents via standard formats&amp;rdquo; to &amp;ldquo;portably running applications&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -40,7 +40,8 @@
       <pubDate>Sun, 17 Oct 2021 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/binary-search-club/spanner/</guid>
-      <description></description>
+      <description>In this presentation, I explain how Google&amp;rsquo;s Spanner system is implemented &amp;ndash; and how it&amp;rsquo;s performance seemingly defies the CAP theorem.
+I&amp;rsquo;ve tried to keep this presentation accessible to people without a deep systems background, but do let me know if you weren&amp;rsquo;t at my prior presentation about distributed systems.</description>
     </item>
     
     <item>
@@ -49,7 +50,8 @@
       <pubDate>Sun, 03 Oct 2021 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/binary-search-club/terminal-protocols/</guid>
-      <description></description>
+      <description>Why do terminal emulators still mess up their output when you resize the window? In this presentation, I walk through the history of UNIX terminals. I discuss:
+Antique methods of electrical communication, from Morse code to the famous barbed wire telephone network used by American farmers.</description>
     </item>
     
     <item>
@@ -58,7 +60,8 @@
       <pubDate>Sat, 15 May 2021 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/binary-search-club/defining-time/</guid>
-      <description></description>
+      <description>In this presentation, I talk about:
+Race conditions in single-machine programming (TOCTOU, etc). How solving these race conditions necessitates atomic primitives. &amp;ldquo;Race conditions&amp;rdquo; in distributed systems (oh no! no more atomics!</description>
     </item>
     
     <item>
@@ -67,7 +70,8 @@
       <pubDate>Sat, 10 Apr 2021 19:14:45 -0800</pubDate>
       
       <guid>https://yashlala.com/docs/binary-search-club/containers/</guid>
-      <description></description>
+      <description>What&amp;rsquo;s the difference between a containers and a virtual machine? How is a hypervisor/kernel actually implemented? Do these abstractions add runtime overhead? If so, how much, and where?
+This presentation attempts to provide clear, evidence based, answers to the above questions.</description>
     </item>
     
   </channel>
