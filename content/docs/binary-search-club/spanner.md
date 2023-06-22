@@ -1,7 +1,6 @@
 ---
 title: "Spanner: Google vs the CAP Theorem"
 date: 2021-10-17T19:14:45-08:00
-summary: " "
 draft: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "CS 183EW: Engineering Ethics"
 date: 2022-02-28T19:14:45-08:00
-summary: " "
 draft: false
 ---
 

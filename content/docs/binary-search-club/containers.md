@@ -1,7 +1,6 @@
 ---
 title: "Containers"
 date: 2021-04-10T19:14:45-08:00
-summary: " "
 draft: false
 ---
 
