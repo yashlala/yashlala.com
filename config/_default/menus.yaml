@@ -9,6 +9,6 @@ main:
   - name: Resources
     url: /docs/
     weight: 3
-  # - name: Posts
-  #   url: /posts/
-  #   weight: 2
+  - name: Blog
+    url: /posts/
+    weight: 4
