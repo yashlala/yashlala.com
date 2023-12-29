@@ -5,6 +5,15 @@
     <link>https://yashlala.com/posts/</link>
     <description>Recent content in Blog Posts on Yash Lala</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://yashlala.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Dec 2023 17:49:06 -0700</lastBuildDate>
+    <atom:link href="https://yashlala.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connecting to the Yale VPN from Linux</title>
+      <link>https://yashlala.com/posts/yale-vpn-linux/</link>
+      <pubDate>Wed, 20 Dec 2023 17:49:06 -0700</pubDate>
+      <guid>https://yashlala.com/posts/yale-vpn-linux/</guid>
+      <description>Working around a recent VPN change.</description>
+    </item>
   </channel>
 </rss>
