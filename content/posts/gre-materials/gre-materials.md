@@ -5,7 +5,7 @@ summary: "Releasing my old GRE flashcards"
 draft: false
 ---
 
-Back when I was applying for PhD programs, I found a great
+Back when I was applying for grad school, I found a great
 [Anki](https://apps.ankiweb.net/) deck for the GRE Vocabulary section online. 
 It's quite complete, and includes memorable pictures for tricky words. 
 
