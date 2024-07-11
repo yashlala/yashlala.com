@@ -1,3 +1,5 @@
 Was a problem, couldn't run hugo server.
 Run a hugo build first. It'll download a go module.
 Then the hugo server will work.
+
+Sometimes you need to update `postcss` with `npm run postcss`. 
