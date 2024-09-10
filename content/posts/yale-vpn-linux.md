@@ -27,10 +27,10 @@ And the VPN will start right up.
 EDIT: Some readers have had difficulties with the setup process. I'll add
 two tips here, so you won't run into the same issues. 
 
-Firstly: Your browser will need access to the current `DISPLAY` or
-`WAYLAND_DISPLAY` to open a window. Unfortunately, `sudo` doesn't pass
-environment variables to `openconnect` by default -- so remember to use `sudo
--E openconnect` instead. 
+Firstly: Your browser will need access to the `DISPLAY` or `WAYLAND_DISPLAY`
+variables to open a window. `sudo` won't pass environment variables to
+`openconnect` by default -- so use something like `sudo -E openconnect`
+instead. 
 
 Secondly: Running `openconnect` as root will start your browser as root. This
 may put you in a situation where: 
@@ -68,3 +68,7 @@ But it's better to set it to something like this:
 # Use `su` to start Firefox as our regular, non-root user. 
 exec su --preserve-environment $YOUR_USERNAME firefox "$@"
 ```
+
+If none of this works -- you can try opening an existing browser window, _then_
+trying the scripts above. `openconnect` should open a tab in the existing
+window, which can sidestep the "browser process is root" issue. 
