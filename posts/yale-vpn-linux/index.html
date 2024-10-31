@@ -69,8 +69,8 @@
   integrity="sha384-atOyb0FxAgN9LyAc6PEf9BjgwLISyansgdH8/VXQH8p2o5vfrRgmGIJ2Sg22L0A0"  crossorigin></script>
 
 
-<link rel="icon" type="image/png" sizes="32x32" href="https://yashlala.com/images/snail-256x256_hu11f0992d1198bcab42453ffaa13a12e6_1415_32x32_fill_box_center_3.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://yashlala.com/images/snail-256x256_hu11f0992d1198bcab42453ffaa13a12e6_1415_180x180_fill_box_center_3.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://yashlala.com/images/snail-256x256_hu6037875190780574932.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://yashlala.com/images/snail-256x256_hu6417574031276966477.png">
 
 <meta name="description"
   content="Working around a recent VPN change.">
@@ -102,7 +102,7 @@
     },
     "headline": "Connecting to the Yale VPN from Linux | Yash Lala","datePublished": "2024-02-12T17:49:06-07:00",
     "dateModified": "2024-02-12T17:49:06-07:00",
-    "wordCount":  278 ,
+    "wordCount":  314 ,
     "publisher": {
         "@type": "Person",
         "name": "Yash Lala",
@@ -275,9 +275,10 @@ client:</p>
 <hr>
 <p>EDIT: Some readers have had difficulties with the setup process. I&rsquo;ll add
 two tips here, so you won&rsquo;t run into the same issues.</p>
-<p>Firstly: Your browser will need access to the current <code>DISPLAY</code> or
-<code>WAYLAND_DISPLAY</code> to open a window. Unfortunately, <code>sudo</code> doesn&rsquo;t pass
-environment variables to <code>openconnect</code> by default &ndash; so remember to use <code>sudo -E openconnect</code> instead.</p>
+<p>Firstly: Your browser will need access to the <code>DISPLAY</code> or <code>WAYLAND_DISPLAY</code>
+variables to open a window. <code>sudo</code> won&rsquo;t pass environment variables to
+<code>openconnect</code> by default &ndash; so use something like <code>sudo -E openconnect</code>
+instead.</p>
 <p>Secondly: Running <code>openconnect</code> as root will start your browser as root. This
 may put you in a situation where:</p>
 <ul>
@@ -304,6 +305,9 @@ exec chromium --no-sandbox &quot;$@&quot;
 # Use `su` to start Firefox as our regular, non-root user. 
 exec su --preserve-environment $YOUR_USERNAME firefox &quot;$@&quot;
 </code></pre>
+<p>If none of this works &ndash; you can try opening an existing browser window, <em>then</em>
+trying the scripts above. <code>openconnect</code> should open a tab in the existing
+window, which can sidestep the &ldquo;browser process is root&rdquo; issue.</p>
 
 </article>
 
