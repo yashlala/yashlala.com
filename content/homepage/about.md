@@ -10,11 +10,10 @@ avatar: images/yash-blue-profile.jpg
 social:
   - icon: envelope
     iconPack: fas
-    url: mailto:yashlala@ucla.edu
+    url: mailto:yash.lala@yale.edu
   - icon: github
     iconPack: fab
     url: https://github.com/yashlala
-  # TODO LinkedIn icon doesn't exist. Can we spell out the links?
   - icon: linkedin
     iconPack: fab
     url: https://www.linkedin.com/in/yashlala/
@@ -54,6 +53,6 @@ efficient data-center scale computing, although my recent work focuses on
 [disaggregated memory](https://arxiv.org/pdf/2202.02223.pdf) systems. 
 
 If you'd like to chat, you can find me at
-`yashlala [at] yale [dot] edu`. The icons on the right of the page lead to
+`yash [dot] lala [at] yale [dot] edu`. The icons on the right of the page lead to
 [GitHub](https://github.com/yashlala),
 [LinkedIn](https://www.linkedin.com/in/yashlala/), etc. 
