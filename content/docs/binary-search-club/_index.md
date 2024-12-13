@@ -7,19 +7,21 @@ weight: 3
 ---
 
 A collection of materials from my presentations to the Binary Search Club
-(BSC). These materials are primarily for internal club use.
+(BSC) during my undergrad. These materials were primarily for internal club use.
 
-The BSC ~~was~~ _is_ an informal seminar of UCLA ~~undergraduates~~ _alumni_. Every
-few weeks, one member presents on a topic of their choice -- ranging from
-origami mathematics to film analysis. 
+The BSC was an informal seminar of UCLA undergraduates. 
+Every few weeks, one member presented on a topic of their choice -- ranging
+from origami mathematics to film analysis. 
 
-The BSC started as a LeetCode club, until we realized that none of us
-particularly enjoyed grinding LeetCode. 
+My own presentations tended to focus on computer history, my thoughts on
+network abstractions, and computer systems + architecture. 
+I eventually pursued the latter two topics during my PhD. 
 
-We then recreated the group into its
-present form, with two broad goals: 
+The BSC started as a LeetCode practice group, until we realized that none of us
+particularly enjoyed interview prep as a group activity ;). 
+
+We then recreated the group into its present form, with two goals: 
 
 1. To create an environment where students with varied interests can share
    their knowledge and discuss "what they've been reading this month". 
 2. To improve our presentational skills. 
-
