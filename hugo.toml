@@ -59,13 +59,13 @@ ignoreErrors = ["error-disable-taxonomy"]
 [[menu.main]]
     name = "Blog"
     pageRef = "/blog"
-    weight = 20
+    weight = 40
 
 
 [[menu.main]]
     name = "Vault"
     pageRef = "/vault"
-    weight = 40
+    weight = 50
 
 # Generate RSS for home only.
 [outputs]
