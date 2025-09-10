@@ -6,4 +6,4 @@ draft: false
 
 Taken Winter 2021, with Prof. Glenn Reinman. 
 Great class. 
-Nicely typeset PDF available [here](/notes/cs-m151b.pdf). 
+Nicely typeset PDF available [here](notes.pdf). 

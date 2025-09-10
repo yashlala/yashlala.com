@@ -5,4 +5,4 @@ draft: false
 ---
 
 Taken Winter 2021, with Prof. Gershon Weltman. 
-Nicely typeset PDF available [here](/notes/cs-183ew.pdf). 
+Nicely typeset PDF available [here](notes.pdf). 

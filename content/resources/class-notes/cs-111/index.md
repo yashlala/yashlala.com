@@ -5,4 +5,4 @@ draft: false
 ---
 
 Taken Fall 2019, with Prof. Paul Eggert. 
-Nicely typeset PDF available [here](/notes/cs-111.pdf). 
+Nicely typeset PDF available [here](notes.pdf). 

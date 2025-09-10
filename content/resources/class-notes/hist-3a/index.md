@@ -5,4 +5,4 @@ draft: false
 ---
 
 Taken Fall 2019, with Prof. Amir Alexander. 
-Nicely typeset PDF available [here](/notes/hist-3a.pdf). 
+Nicely typeset PDF available [here](notes.pdf)

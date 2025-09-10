@@ -5,4 +5,4 @@ draft: false
 ---
 
 Taken Spring 2021, with Prof. John Cho. 
-PDF available [here](/notes/cs-143.pdf). 
+PDF available [here](notes.pdf). 

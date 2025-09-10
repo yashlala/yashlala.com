@@ -6,4 +6,4 @@ draft: false
 
 Taken Fall 2021, with Prof. Jens Palsberg. 
 What a great class. 
-Nicely typeset PDF available [here](/notes/cs-132.pdf). 
+Nicely typeset PDF available [here](notes.pdf). 

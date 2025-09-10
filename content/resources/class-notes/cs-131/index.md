@@ -5,4 +5,4 @@ draft: false
 ---
 
 Taken Winter 2020, with Prof. Paul Eggert. 
-Nicely typeset PDF available [here](/notes/cs-131.pdf). 
+Nicely typeset PDF available [here](notes.pdf). 
