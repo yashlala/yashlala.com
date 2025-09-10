@@ -10,7 +10,6 @@ enableRobotsTXT = true
 languageCode = "en"
 defaultContentLanguage = "en"
 services.rss.limit = 42
-pagination.pagerSize = 16
 
 # https://github.com/gohugoio/hugo/issues/12152
 capitalizeListTitles = false
@@ -19,6 +18,9 @@ capitalizeListTitles = false
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+
+[pagination]
+    pagerSize = 16
 
 [taxonomies]
     tag = "tags"
@@ -58,8 +60,6 @@ ignoreErrors = ["error-disable-taxonomy"]
     name = "Resources"
     pageRef = "/resources"
     weight = 40
-
-
 
 # Generate RSS for home only.
 [outputs]
