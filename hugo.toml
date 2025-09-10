@@ -1,6 +1,5 @@
 # Basic config
 baseURL = "https://yashlala.com"
-theme = "hugo-simple"
 title = "Yash Lala"
 copyright = "© Yash Lala"
 mainSections = [ "blog", "cv", "resources" ]
