@@ -1,5 +1,12 @@
 {{ define "main" }}
   <content>
+    <!-- Yash: UGLY HACK!
+      This re-initializes the paginator. Needed for pagination to work right
+      on the "Resources" page. I don't understand how this works...leave it for now, 
+      we'll create a new template for "non-blog-post-lists" soon enough...
+      -->
+    {{- $paginator := .Paginate .Pages }}
+
     {{ if .Content }}
     <!-- Include some text introducing the list, if available. -->
       <div class="list-preamble">

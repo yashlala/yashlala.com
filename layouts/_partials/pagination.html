@@ -1,9 +1,4 @@
 <div class="pagination flex-between">
-  <!--
-    Yash: this re-initializes the paginator. Needed for pagination to work right
-    on the "Resources" page. I don't understand how this works.
-  -->
-  {{- $paginator := .Paginate .Pages }}
   <a
     {{ if .Paginator.HasPrev }}
       href="{{ .Paginator.Prev.URL }}"
