@@ -1,14 +1,17 @@
 # Basic config
 baseURL = "https://yashlala.com"
 theme = "hugo-simple"
-languageCode = "en"
-defaultContentLanguage = "en"
 title = "Yash Lala"
-copyright = "© 2025 Yash Lala"
-mainSections = ["blog"]
+copyright = "© Yash Lala"
+mainSections = [ "blog", "cv", "resources" ]
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
+
+languageCode = "en"
+defaultContentLanguage = "en"
+services.rss.limit = 42
+pagination.pagerSize = 16
 
 # https://github.com/gohugoio/hugo/issues/12152
 capitalizeListTitles = false
@@ -16,60 +19,66 @@ capitalizeListTitles = false
 # Yash: I'm not sure what this does yet. 
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
-# ignoreErrors = ["error-disable-taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
 [taxonomies]
-tag = "tags"
+    tag = "tags"
 
 [permalinks]
-blog = "/blog/:year/:slugorcontentbasename/"
-tags = "/blog/tags/:slug"
-
-# allow raw html in markdown
-[markup.goldmark.renderer]
-unsafe = true
-
-[markup.tableOfContents]
-# set toc start and end levels
-startLevel = 2
-endLevel = 3
-
-# configure code highlighting
-[markup.highlight]
-lineNos = true
-lineNumbersInTable = false
-noClasses = true
-style = "catppuccin-mocha"
+    blog = "/blog/:year/:slugorcontentbasename/"
+    tags = "/tags/:slug"
 
 [params]
-title = "Yash Lala"
-description = "Yash Lala's Personal Website"
-favicon = "img/favicon.png"
-dateFormat = "2006-01-02"
-hideMadeWithLine = false
-hideRSSLink = false
+    title = "Yash Lala"
+    description = "Yash Lala's Personal Website"
+    favicon = "img/favicon.png"
+    dateFormat = "2006-01-02"
+    hideMadeWithLine = false
+    hideRSSLink = true
 
 [params.author]
-name = "Yash Lala"
-email = "yash.lala@yale.edu"
+    name = "Yash Lala"
+    email = "yash.lala@yale.edu"
 
 [[menu.main]]
-name = "Home"
-pageRef = "/"
-weight = 10
+    name = "Home"
+    pageRef = "/"
+    weight = 10
 
 [[menu.main]]
-name = "Blog"
-pageRef = "/blog"
-weight = 20
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 20
 
-[services.rss]
-limit = 42
+[[menu.main]]
+    name = "CV"
+    url = "/resume.pdf"
+    weight = 30
 
-[pagination]
-pagerSize = 16
+[[menu.main]]
+    name = "Resources"
+    pageRef = "/resources"
+    weight = 40
+
+
 
 # Generate RSS for home only.
 [outputs]
-section = ["html"]
-taxonomy = ["html"]
-term = ["html"]
+    section = ["html"]
+    taxonomy = ["html"]
+    term = ["html"]
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+# set toc start and end levels
+[markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+# configure code highlighting
+[markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "catppuccin-mocha"

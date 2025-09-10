@@ -1,23 +1,17 @@
 ---
-title: "ᕦʕ •ᴥ•ʔᕤ"
+title: "Yash Lala"
 ---
 
-Today's websites are bloated, slow, and full of scripts, ads, and trackers. This
-became so commonplace that we lost all sense of perspective, to the point that
-we now think multi-megabyte webpages are normal.
+Hello! I'm Yash. 
 
-> The internet has become a bloated mess. Huge JavaScript libraries, countless
-> client-side queries and overly complex frontend frameworks are par for the
-> course these days.
->
-> --- [Kev Quirk](https://512kb.club/)
+I received a B.S. in Computer Science from UCLA in Spring 2022, and started
+my Ph.D. at Yale in Fall 2023, under the advisorship of 
+[Anurag Khandelwal](https://www.anuragkhandelwal.com/). 
+I'm broadly interested in systems for
+efficient data-center scale computing, although my recent work focuses on
+[disaggregated memory](https://arxiv.org/pdf/2202.02223.pdf) systems. 
 
-Let's change this, one website at a time! **Hugo Simple** is a
-[Hugo](https://gohugo.io/) theme based on [Simple.css](https://simplecss.org/) and
-[Hugo Bear](https://github.com/janraasch/hugo-bearblog/) that takes care of speed and
-optimization, so you can focus on writing good content.
-
-It is free, multilingual, optimized for search engines, no-nonsense, responsive,
-light, and fast. Really fast.
-
-Made with 💟 by [Shaolong Chen](https://github.com/maolonglong).
+If you'd like to chat, you can find me at
+`yash [dot] lala [at] yale [dot] edu`. The icons on the right of the page lead to
+[GitHub](https://github.com/yashlala),
+[LinkedIn](https://www.linkedin.com/in/yashlala/), etc. 
