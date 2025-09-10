@@ -20,4 +20,4 @@ I discuss:
 - Finally: how communication asynchrony, punch cards, and the TTY system
   architecture cause the problems we know and love today. 
 
-Slides available [here](/binary-search-club/terminal-protocols.pdf). 
+Slides available [here](slides.pdf). 

@@ -27,4 +27,4 @@ I'd highly recommend checking out the original talk, which is masterfully done
 (particularly the live code demo). 
 
 
-Slides available [here](/binary-search-club/containers.pdf). 
+Slides available [here](slides.pdf). 

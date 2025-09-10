@@ -21,4 +21,4 @@ In this presentation, I talk about:
    - How stable are these ecosystems under global-warming related changes? 
    - The impact of undersea mining. 
 
-Slides available [here](/binary-search-club/deep-sea-evolution.pdf). 
+Slides available [here](slides.pdf). 

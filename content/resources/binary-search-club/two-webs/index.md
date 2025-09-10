@@ -16,4 +16,4 @@ Among other things, I explain:
   robust protocols for web accessibility. 
 - The US legal system's perspective -- ft. the legality of AdBlock. 
 
-Slides available [here](/binary-search-club/two-webs.pdf). 
+Slides available [here](slides.pdf). 

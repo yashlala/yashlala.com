@@ -20,4 +20,4 @@ Once we see behind the smoke and mirrors, we'll be able to set up git aliases
 that make more sense to us. You'll never have to remember the difference
 between `--staged` and `--cached` again. 
 
-Slides available [here](/binary-search-club/real-git.pdf). 
+Slides available [here](slides.pdf). 

@@ -26,4 +26,4 @@ In this presentation, I:
 - Conclusion: with enough money and hardware, you can create large-scale,
   strongly-consistent, systems -- even when the theoreticians say otherwise. 
 
-Slides available [here](/binary-search-club/spanner.pdf). 
+Slides available [here](slides.pdf). 
