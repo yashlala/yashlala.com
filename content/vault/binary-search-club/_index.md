@@ -1,6 +1,6 @@
 ---
 title: "Binary Search Club"
-date: 2023-05-23T12:15:53-08:00
+date: 2022-05-23T12:15:53-08:00
 ---
 
 A collection of materials from my presentations to the Binary Search Club

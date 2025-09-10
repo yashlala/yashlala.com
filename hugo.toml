@@ -42,13 +42,13 @@ ignoreErrors = ["error-disable-taxonomy"]
     email = "yash.lala@yale.edu"
 
 [[menu.main]]
-    name = "Home"
+    name = "About Me"
     pageRef = "/"
     weight = 10
 
 [[menu.main]]
-    name = "Blog"
-    pageRef = "/blog"
+    name = "Research"
+    pageRef = "/todo"
     weight = 20
 
 [[menu.main]]
@@ -57,8 +57,14 @@ ignoreErrors = ["error-disable-taxonomy"]
     weight = 30
 
 [[menu.main]]
-    name = "Resources"
-    pageRef = "/resources"
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 20
+
+
+[[menu.main]]
+    name = "Vault"
+    pageRef = "/vault"
     weight = 40
 
 # Generate RSS for home only.
