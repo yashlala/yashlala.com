@@ -4,6 +4,8 @@ title = "Yash Lala"
 copyright = "© Yash Lala"
 mainSections = [ "blog", "cv", "resources" ]
 
+publishDir = "build"
+
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
