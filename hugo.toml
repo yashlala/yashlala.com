@@ -34,8 +34,6 @@ ignoreErrors = ["error-disable-taxonomy"]
     description = "Yash Lala's Personal Website"
     favicon = "img/favicon.png"
     dateFormat = "2006-01-02"
-    hideMadeWithLine = false
-    hideRSSLink = true
 
 [params.author]
     name = "Yash Lala"
