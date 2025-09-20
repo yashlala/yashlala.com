@@ -50,20 +50,22 @@ div.highlight pre span {
 
 /* set layout for homepage header*/
 .homepage-header { 
-  display: inline-flex; 
+  display: flex; 
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
   align-items: center;
   vertical-align: middle;
-  gap: 0.75rem;
+  column-gap: 4em;
 }
+
 .homepage-header__avatar { 
   width: 160px;
   height: 160px;
   border-radius: 20%;
 }
-.homepage-header__title { 
-  margin: auto; 
-}
+
 .homepage-header__contact-info { 
   display: inline-flex;
   flex-direction: column;
