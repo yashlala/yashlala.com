@@ -47,10 +47,10 @@ ignoreErrors = ["error-disable-taxonomy"]
     pageRef = "/"
     weight = 10
 
-[[menu.main]]
-    name = "Research"
-    pageRef = "/todo"
-    weight = 20
+#[[menu.main]]
+#    name = "Research"
+#    pageRef = "/todo"
+#    weight = 20
 
 [[menu.main]]
     name = "CV"
