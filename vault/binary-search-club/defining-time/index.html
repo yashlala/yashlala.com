@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+<title>Defining Time in Distributed Systems&nbsp;|&nbsp;Yash Lala</title>
+<meta
+  name="title"
+  content="Defining Time in Distributed Systems"
+/>
+<meta
+  name="description"
+  content="In this presentation, I talk about:
+
+Race conditions in single-machine programming
+(TOCTOU, etc).
+How solving these race conditions necessitates atomic primitives.
+&ldquo;Race conditions&rdquo; in distributed systems (oh no! no more atomics!).
+The benefits of lax consistency models for distributed systems.
+A walkthrough of Lamport clocks.
+
+Slides available here."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+
+  <meta name="author" content="Yash Lala" />
+
+
+
+
+<meta property="og:url" content="https://yashlala.com/vault/binary-search-club/defining-time/">
+  <meta property="og:site_name" content="Yash Lala">
+  <meta property="og:title" content="Defining Time in Distributed Systems">
+  <meta property="og:description" content="In this presentation, I talk about:
+Race conditions in single-machine programming (TOCTOU, etc). How solving these race conditions necessitates atomic primitives. “Race conditions” in distributed systems (oh no! no more atomics!). The benefits of lax consistency models for distributed systems. A walkthrough of Lamport clocks. Slides available here.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="vault">
+    <meta property="article:published_time" content="2021-05-15T19:14:45-08:00">
+    <meta property="article:modified_time" content="2021-05-15T19:14:45-08:00">
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Defining Time in Distributed Systems">
+  <meta name="twitter:description" content="In this presentation, I talk about:
+Race conditions in single-machine programming (TOCTOU, etc). How solving these race conditions necessitates atomic primitives. “Race conditions” in distributed systems (oh no! no more atomics!). The benefits of lax consistency models for distributed systems. A walkthrough of Lamport clocks. Slides available here.">
+
+
+
+
+
+  <meta itemprop="name" content="Defining Time in Distributed Systems">
+  <meta itemprop="description" content="In this presentation, I talk about:
+Race conditions in single-machine programming (TOCTOU, etc). How solving these race conditions necessitates atomic primitives. “Race conditions” in distributed systems (oh no! no more atomics!). The benefits of lax consistency models for distributed systems. A walkthrough of Lamport clocks. Slides available here.">
+  <meta itemprop="datePublished" content="2021-05-15T19:14:45-08:00">
+  <meta itemprop="dateModified" content="2021-05-15T19:14:45-08:00">
+  <meta itemprop="wordCount" content="48">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+    
+    
+    
+    <link href="/bundle.min.css" rel="stylesheet" />
+
+    
+
+    </head>
+
+  <body>
+    <header><nav>
+  <a
+    href="/"
+    
+    >About Me</a
+  >
+
+  <a
+    href="/resume.pdf"
+    
+    >CV</a
+  >
+
+  <a
+    href="/blog/"
+    
+    >Blog</a
+  >
+
+  <a
+    href="/vault/"
+    
+    >Vault</a
+  >
+
+</nav>
+    <h1>Defining Time in Distributed Systems</h1>
+
+</header>
+    <main>
+      
+  
+  
+  
+  <content>
+    <p>In this presentation, I talk about:</p>
+<ul>
+<li>Race conditions in single-machine programming
+(<a href="https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use">TOCTOU</a>, etc).</li>
+<li>How solving these race conditions necessitates atomic primitives.</li>
+<li>&ldquo;Race conditions&rdquo; in distributed systems (oh no! no more atomics!).</li>
+<li>The benefits of lax consistency models for distributed systems.</li>
+<li>A walkthrough of Lamport clocks.</li>
+</ul>
+<p>Slides available <a href="slides.pdf">here</a>.</p>
+
+  </content>
+  
+
+    </main>
+    <footer>
+      
+  <span>© Yash Lala</span>
+
+<span> 
+  |
+  <a href="/index.xml">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512">
+      
+      <path
+        d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+      />
+    </svg>
+    RSS
+  </a>
+</span>
+<span>
+  |
+  Made with
+  <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
+</span>
+
+    </footer>
+  </body>
+</html>

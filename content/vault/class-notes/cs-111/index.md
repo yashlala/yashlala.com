@@ -1,0 +1,8 @@
+---
+title: "CS 111: Operating Systems"
+date: 2019-12-28T19:14:45-08:00
+draft: false
+---
+
+Taken Fall 2019, with Prof. Paul Eggert. 
+Nicely typeset PDF available [here](notes.pdf). 

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+<title>Containers&nbsp;|&nbsp;Yash Lala</title>
+<meta
+  name="title"
+  content="Containers"
+/>
+<meta
+  name="description"
+  content="What&rsquo;s the difference between a containers and a virtual machine?
+How is a hypervisor/kernel actually implemented?
+Do these abstractions add runtime overhead? If so, how much, and where?
+This presentation attempts to provide clear, evidence based, answers to the
+above questions. In this presentation, I:
+
+Discuss the implementations of virtual machines and containers.
+Trace the history behind VMs and containers. I argue that the historical
+prevalence of VMs was largely due to a failure of contemporary OS isolation
+mechanisms, and that this trend will reverse.
+Dispel common misconceptions about each technology.
+Create a Docker clone in C using Linux namespaces.
+
+The &ldquo;live&rdquo; portion of this presentation consisted of a live demo of various
+Linux namespaces on my laptop, and was mostly lifted from
+&ldquo;Containers from Scratch&rdquo;, a presentation
+delivered at GOTO Amsterdam 2018 by
+Liz Rice.
+I&rsquo;d highly recommend checking out the original talk, which is masterfully done
+(particularly the live code demo)."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+
+  <meta name="author" content="Yash Lala" />
+
+
+
+
+<meta property="og:url" content="https://yashlala.com/vault/binary-search-club/containers/">
+  <meta property="og:site_name" content="Yash Lala">
+  <meta property="og:title" content="Containers">
+  <meta property="og:description" content="What’s the difference between a containers and a virtual machine? How is a hypervisor/kernel actually implemented? Do these abstractions add runtime overhead? If so, how much, and where?
+This presentation attempts to provide clear, evidence based, answers to the above questions. In this presentation, I:
+Discuss the implementations of virtual machines and containers. Trace the history behind VMs and containers. I argue that the historical prevalence of VMs was largely due to a failure of contemporary OS isolation mechanisms, and that this trend will reverse. Dispel common misconceptions about each technology. Create a Docker clone in C using Linux namespaces. The “live” portion of this presentation consisted of a live demo of various Linux namespaces on my laptop, and was mostly lifted from “Containers from Scratch”, a presentation delivered at GOTO Amsterdam 2018 by Liz Rice. I’d highly recommend checking out the original talk, which is masterfully done (particularly the live code demo).">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="vault">
+    <meta property="article:published_time" content="2021-04-10T19:14:45-08:00">
+    <meta property="article:modified_time" content="2021-04-10T19:14:45-08:00">
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Containers">
+  <meta name="twitter:description" content="What’s the difference between a containers and a virtual machine? How is a hypervisor/kernel actually implemented? Do these abstractions add runtime overhead? If so, how much, and where?
+This presentation attempts to provide clear, evidence based, answers to the above questions. In this presentation, I:
+Discuss the implementations of virtual machines and containers. Trace the history behind VMs and containers. I argue that the historical prevalence of VMs was largely due to a failure of contemporary OS isolation mechanisms, and that this trend will reverse. Dispel common misconceptions about each technology. Create a Docker clone in C using Linux namespaces. The “live” portion of this presentation consisted of a live demo of various Linux namespaces on my laptop, and was mostly lifted from “Containers from Scratch”, a presentation delivered at GOTO Amsterdam 2018 by Liz Rice. I’d highly recommend checking out the original talk, which is masterfully done (particularly the live code demo).">
+
+
+
+
+
+  <meta itemprop="name" content="Containers">
+  <meta itemprop="description" content="What’s the difference between a containers and a virtual machine? How is a hypervisor/kernel actually implemented? Do these abstractions add runtime overhead? If so, how much, and where?
+This presentation attempts to provide clear, evidence based, answers to the above questions. In this presentation, I:
+Discuss the implementations of virtual machines and containers. Trace the history behind VMs and containers. I argue that the historical prevalence of VMs was largely due to a failure of contemporary OS isolation mechanisms, and that this trend will reverse. Dispel common misconceptions about each technology. Create a Docker clone in C using Linux namespaces. The “live” portion of this presentation consisted of a live demo of various Linux namespaces on my laptop, and was mostly lifted from “Containers from Scratch”, a presentation delivered at GOTO Amsterdam 2018 by Liz Rice. I’d highly recommend checking out the original talk, which is masterfully done (particularly the live code demo).">
+  <meta itemprop="datePublished" content="2021-04-10T19:14:45-08:00">
+  <meta itemprop="dateModified" content="2021-04-10T19:14:45-08:00">
+  <meta itemprop="wordCount" content="156">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+    
+    
+    
+    <link href="/bundle.min.css" rel="stylesheet" />
+
+    
+
+    </head>
+
+  <body>
+    <header><nav>
+  <a
+    href="/"
+    
+    >About Me</a
+  >
+
+  <a
+    href="/resume.pdf"
+    
+    >CV</a
+  >
+
+  <a
+    href="/blog/"
+    
+    >Blog</a
+  >
+
+  <a
+    href="/vault/"
+    
+    >Vault</a
+  >
+
+</nav>
+    <h1>Containers</h1>
+
+</header>
+    <main>
+      
+  
+  
+  
+  <content>
+    <p>What&rsquo;s the difference between a containers and a virtual machine?
+How is a hypervisor/kernel actually implemented?
+Do these abstractions add runtime overhead? If so, how much, and <em>where</em>?</p>
+<p>This presentation attempts to provide clear, <em>evidence based</em>, answers to the
+above questions. In this presentation, I:</p>
+<ul>
+<li>Discuss the implementations of virtual machines and containers.</li>
+<li>Trace the history behind VMs and containers. I argue that the historical
+prevalence of VMs was largely due to a failure of contemporary OS isolation
+mechanisms, and that this trend will reverse.</li>
+<li>Dispel common misconceptions about each technology.</li>
+<li>Create a Docker clone in C using Linux namespaces.</li>
+</ul>
+<p>The &ldquo;live&rdquo; portion of this presentation consisted of a live demo of various
+Linux namespaces on my laptop, and was mostly lifted from
+<a href="https://youtu.be/8fi7uSYlOdc">&ldquo;Containers from Scratch&rdquo;</a>, a presentation
+delivered at GOTO Amsterdam 2018 by
+<a href="https://www.lizrice.com/">Liz Rice</a>.
+I&rsquo;d highly recommend checking out the original talk, which is masterfully done
+(particularly the live code demo).</p>
+<p>Slides available <a href="slides.pdf">here</a>.</p>
+
+  </content>
+  
+
+    </main>
+    <footer>
+      
+  <span>© Yash Lala</span>
+
+<span> 
+  |
+  <a href="/index.xml">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512">
+      
+      <path
+        d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+      />
+    </svg>
+    RSS
+  </a>
+</span>
+<span>
+  |
+  Made with
+  <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
+</span>
+
+    </footer>
+  </body>
+</html>

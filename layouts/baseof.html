@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{- partial "favicon.html" . -}}
+    <title>
+      {{- block "title" . -}}
+        {{- if not .IsHome -}}
+          {{ with .Title }}{{ . }}&nbsp;|&nbsp;{{ end }}
+        {{- end -}}
+        {{ .Site.Title }}
+      {{- end -}}
+    </title>
+
+    {{- partial "seo_tags.html" . -}}
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+    {{ $simple := resources.Get "simple.css" }}
+    {{ $style := resources.Get "style.css" }}
+    {{ $css := slice $simple $style | resources.Concat "bundle.css" | minify }}
+    <link href="{{ $css.RelPermalink }}" rel="stylesheet" />
+
+    {{ with .Params.style }}
+      {{ $extra := resources.Get . | minify }}
+      <link href="{{ $extra.RelPermalink }}" rel="stylesheet" />
+    {{ end }}
+
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+    {{ end -}}
+  </head>
+
+  <body>
+    <header>
+      {{- if .IsHome -}}
+        {{ partial "home_header.html" . }}
+      {{- else -}}
+        {{ partial "header.html" . }}
+      {{- end -}}
+    </header>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+  </body>
+</html>

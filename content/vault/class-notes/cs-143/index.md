@@ -1,0 +1,8 @@
+---
+title: "CS 143: Intro to Databases"
+date: 2021-11-13T19:14:45-08:00
+draft: false
+---
+
+Taken Spring 2021, with Prof. John Cho. 
+PDF available [here](notes.pdf). 
