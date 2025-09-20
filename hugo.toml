@@ -32,12 +32,15 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params]
     title = "Yash Lala"
     description = "Yash Lala's Personal Website"
-    favicon = "img/favicon.png"
+    favicon = "favicon.ico"
     dateFormat = "2006-01-02"
 
 [params.author]
     name = "Yash Lala"
     email = "yash.lala@yale.edu"
+    github = "https://github.com/yashlala"
+    linkedin = "https://www.linkedin.com/in/yashlala/"
+    headshot = "img/.png"
 
 [[menu.main]]
     name = "About Me"

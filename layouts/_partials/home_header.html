@@ -1,0 +1,24 @@
+<nav>{{- partial "nav.html" . -}}</nav>
+<div class="homepage-header">
+  <div class="homepage-header__avatar"> 
+    <picture>
+      <source type="image/avif" srcset="img/yash-blue-profile.avif">
+      <source type="image/webp" srcset="img/yash-blue-profile.webp">
+      <img src="yash-blue-profile.jpg" alt="Yash Lala's face">
+    </picture>
+  </div>
+  <div class="homepage-header__title"> 
+    <h1>{{ .Site.Title }}</h1>
+  </div>
+  <div class="homepage-header__contact-info">
+    <div>
+      <a title="Email" href="mailto:{{ site.Params.author.email }}">{{- partial "svg/email.svg" -}}Email</a>
+    </div>
+    <div>
+      <a title="GitHub" href="{{ site.Params.author.github }}">{{- partial "svg/github.svg" -}}GitHub</a>
+    </div>
+    <div>
+      <a title="LinkedIn" href="{{- site.Params.author.linkedin -}}">{{- partial "svg/linkedin.svg" -}}LinkedIn</a>
+    </div>
+  </div>
+</div>

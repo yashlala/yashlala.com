@@ -33,7 +33,11 @@
 
   <body>
     <header>
-      {{ partial "header.html" . }}
+      {{- if .IsHome -}}
+        {{ partial "home_header.html" . }}
+      {{- else -}}
+        {{ partial "header.html" . }}
+      {{- end -}}
     </header>
     <main>
       {{ block "main" . }}{{ end }}
