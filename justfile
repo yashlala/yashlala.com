@@ -11,7 +11,7 @@ server:
   hugo server -D
 
 build:
-  hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../.. --baseURL https://maolonglong.github.io/hugo-simple/
+  hugo --minify --gc --destination ../public
 
 update-simplecss:
   curl -fSL https://cdn.simplecss.org/simple.css -o ./assets/simple.css
