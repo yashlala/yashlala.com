@@ -11,7 +11,7 @@ server:
   hugo server -D
 
 build:
-  hugo --minify --gc --destination ../public
+  hugo --minify --gc --destination ./build
 
 update-simplecss:
   curl -fSL https://cdn.simplecss.org/simple.css -o ./assets/simple.css
