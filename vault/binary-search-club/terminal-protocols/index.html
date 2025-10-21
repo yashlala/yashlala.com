@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-
-<title>Computer Terminal Protocols&nbsp;|&nbsp;Yash Lala</title>
-<meta
-  name="title"
-  content="Computer Terminal Protocols"
-/>
-<meta
-  name="description"
-  content="Why do terminal emulators still mess up their output when you resize the
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=/favicon.ico><title>Computer Terminal Protocols&nbsp;|&nbsp;Yash Lala</title><meta name=title content="Computer Terminal Protocols"><meta name=description content="Why do terminal emulators still mess up their output when you resize the
 window? In this presentation, I walk through the history of UNIX terminals.
 I discuss:
 
@@ -22,145 +8,30 @@ used by American farmers.
 A historical example of the difficulties of synchronous communication
 protocols.
 The use of punch cards as both a means of I/O logging (stock tickers) and
-as a means of programming (Jaquard looms =&gt; IBM 1401).
+as a means of programming (Jaquard looms => IBM 1401).
 The historical basis for a separate kernel TTY layer, and the ugly
 consequences.
 Finally: how communication asynchrony, punch cards, and the TTY system
 architecture cause the problems we know and love today.
 
-Slides available here."
-/>
-<meta
-  name="keywords"
-  content=""
-/>
-
-  <meta name="author" content="Yash Lala" />
-
-
-
-
-<meta property="og:url" content="https://yashlala.com/vault/binary-search-club/terminal-protocols/">
-  <meta property="og:site_name" content="Yash Lala">
-  <meta property="og:title" content="Computer Terminal Protocols">
-  <meta property="og:description" content="Why do terminal emulators still mess up their output when you resize the window? In this presentation, I walk through the history of UNIX terminals. I discuss:
-Antique methods of electrical communication, from Morse code to the famous barbed wire telephone network used by American farmers. A historical example of the difficulties of synchronous communication protocols. The use of punch cards as both a means of I/O logging (stock tickers) and as a means of programming (Jaquard looms =&gt; IBM 1401). The historical basis for a separate kernel TTY layer, and the ugly consequences. Finally: how communication asynchrony, punch cards, and the TTY system architecture cause the problems we know and love today. Slides available here.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="vault">
-    <meta property="article:published_time" content="2021-10-03T19:14:45-08:00">
-    <meta property="article:modified_time" content="2021-10-03T19:14:45-08:00">
-
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Computer Terminal Protocols">
-  <meta name="twitter:description" content="Why do terminal emulators still mess up their output when you resize the window? In this presentation, I walk through the history of UNIX terminals. I discuss:
-Antique methods of electrical communication, from Morse code to the famous barbed wire telephone network used by American farmers. A historical example of the difficulties of synchronous communication protocols. The use of punch cards as both a means of I/O logging (stock tickers) and as a means of programming (Jaquard looms =&gt; IBM 1401). The historical basis for a separate kernel TTY layer, and the ugly consequences. Finally: how communication asynchrony, punch cards, and the TTY system architecture cause the problems we know and love today. Slides available here.">
-
-
-
-
-
-  <meta itemprop="name" content="Computer Terminal Protocols">
-  <meta itemprop="description" content="Why do terminal emulators still mess up their output when you resize the window? In this presentation, I walk through the history of UNIX terminals. I discuss:
-Antique methods of electrical communication, from Morse code to the famous barbed wire telephone network used by American farmers. A historical example of the difficulties of synchronous communication protocols. The use of punch cards as both a means of I/O logging (stock tickers) and as a means of programming (Jaquard looms =&gt; IBM 1401). The historical basis for a separate kernel TTY layer, and the ugly consequences. Finally: how communication asynchrony, punch cards, and the TTY system architecture cause the problems we know and love today. Slides available here.">
-  <meta itemprop="datePublished" content="2021-10-03T19:14:45-08:00">
-  <meta itemprop="dateModified" content="2021-10-03T19:14:45-08:00">
-  <meta itemprop="wordCount" content="116">
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-    
-    
-    
-    <link href="/bundle.min.css" rel="stylesheet" />
-
-    
-
-    </head>
-
-  <body>
-    <header><nav>
-  <a
-    href="/"
-    
-    >About Me</a
-  >
-
-  <a
-    href="/resume.pdf"
-    
-    >CV</a
-  >
-
-  <a
-    href="/blog/"
-    
-    >Blog</a
-  >
-
-  <a
-    href="/vault/"
-    
-    >Vault</a
-  >
-
-</nav>
-    <h1>Computer Terminal Protocols</h1>
-
-</header>
-    <main>
-      
-  
-  
-  
-  <content>
-    <p>Why do terminal emulators still mess up their output when you resize the
+Slides available here."><meta name=keywords content><meta name=author content="Yash Lala"><meta property="og:url" content="https://yashlala.com/vault/binary-search-club/terminal-protocols/"><meta property="og:site_name" content="Yash Lala"><meta property="og:title" content="Computer Terminal Protocols"><meta property="og:description" content="Why do terminal emulators still mess up their output when you resize the window? In this presentation, I walk through the history of UNIX terminals. I discuss:
+Antique methods of electrical communication, from Morse code to the famous barbed wire telephone network used by American farmers. A historical example of the difficulties of synchronous communication protocols. The use of punch cards as both a means of I/O logging (stock tickers) and as a means of programming (Jaquard looms => IBM 1401). The historical basis for a separate kernel TTY layer, and the ugly consequences. Finally: how communication asynchrony, punch cards, and the TTY system architecture cause the problems we know and love today. Slides available here."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="vault"><meta property="article:published_time" content="2021-10-03T19:14:45-08:00"><meta property="article:modified_time" content="2021-10-03T19:14:45-08:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Computer Terminal Protocols"><meta name=twitter:description content="Why do terminal emulators still mess up their output when you resize the window? In this presentation, I walk through the history of UNIX terminals. I discuss:
+Antique methods of electrical communication, from Morse code to the famous barbed wire telephone network used by American farmers. A historical example of the difficulties of synchronous communication protocols. The use of punch cards as both a means of I/O logging (stock tickers) and as a means of programming (Jaquard looms => IBM 1401). The historical basis for a separate kernel TTY layer, and the ugly consequences. Finally: how communication asynchrony, punch cards, and the TTY system architecture cause the problems we know and love today. Slides available here."><meta itemprop=name content="Computer Terminal Protocols"><meta itemprop=description content="Why do terminal emulators still mess up their output when you resize the window? In this presentation, I walk through the history of UNIX terminals. I discuss:
+Antique methods of electrical communication, from Morse code to the famous barbed wire telephone network used by American farmers. A historical example of the difficulties of synchronous communication protocols. The use of punch cards as both a means of I/O logging (stock tickers) and as a means of programming (Jaquard looms => IBM 1401). The historical basis for a separate kernel TTY layer, and the ugly consequences. Finally: how communication asynchrony, punch cards, and the TTY system architecture cause the problems we know and love today. Slides available here."><meta itemprop=datePublished content="2021-10-03T19:14:45-08:00"><meta itemprop=dateModified content="2021-10-03T19:14:45-08:00"><meta itemprop=wordCount content="116"><meta name=referrer content="no-referrer-when-downgrade"><link href=/bundle.min.css rel=stylesheet></head><body><header><nav><a href=/>About Me</a>
+<a href=/resume.pdf>CV</a>
+<a href=/blog/>Blog</a>
+<a href=/vault/>Vault</a></nav><h1>Computer Terminal Protocols</h1></header><main><content><p>Why do terminal emulators still mess up their output when you resize the
 window? In this presentation, I walk through the history of UNIX terminals.
-I discuss:</p>
-<ul>
-<li>Antique methods of electrical communication, from Morse code to the famous
-<a href="https://en.wikipedia.org/wiki/Party_line_(telephony)#Barbed_wire_telephone_lines">barbed wire telephone network</a>
-used by American farmers.</li>
-<li>A historical example of the difficulties of synchronous communication
-protocols.</li>
-<li>The use of punch cards as both a means of <em>I/O logging</em> (stock tickers) and
-as a means of <em>programming</em> (Jaquard looms =&gt; IBM 1401).</li>
-<li>The historical basis for a separate kernel TTY layer, and the ugly
-consequences.</li>
-<li>Finally: how communication asynchrony, punch cards, and the TTY system
-architecture cause the problems we know and love today.</li>
-</ul>
-<p>Slides available <a href="slides.pdf">here</a>.</p>
-
-  </content>
-  
-
-    </main>
-    <footer>
-      
-  <span>© Yash Lala</span>
-
-<span> 
-  |
-  <a href="/index.xml">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512">
-      
-      <path
-        d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
-      />
-    </svg>
-    RSS
-  </a>
-</span>
-<span>
-  |
-  Made with
-  <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
-</span>
-
-    </footer>
-  </body>
-</html>
+I discuss:</p><ul><li>Antique methods of electrical communication, from Morse code to the famous
+<a href=https://en.wikipedia.org/wiki/Party_line_(telephony)#Barbed_wire_telephone_lines>barbed wire telephone network</a>
+used by American farmers.</li><li>A historical example of the difficulties of synchronous communication
+protocols.</li><li>The use of punch cards as both a means of <em>I/O logging</em> (stock tickers) and
+as a means of <em>programming</em> (Jaquard looms => IBM 1401).</li><li>The historical basis for a separate kernel TTY layer, and the ugly
+consequences.</li><li>Finally: how communication asynchrony, punch cards, and the TTY system
+architecture cause the problems we know and love today.</li></ul><p>Slides available <a href=slides.pdf>here</a>.</p></content></main><footer><span>© Yash Lala</span>
+<span>|
+<a href=/index.xml><svg class="icon" viewBox="0 0 448 512"><path d="M0 64C0 46.3 14.3 32 32 32c229.8.0 416 186.2 416 416 0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96 14.3 96 0 81.7.0 64zM0 416a64 64 0 11128 0A64 64 0 110 416zM32 160c159.1.0 288 128.9 288 288 0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224-17.7.0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+RSS
+</a></span><span>|
+Made with
+<a href=https://github.com/maolonglong/hugo-simple/>Hugo ʕ•ᴥ•ʔ Simple</a></span></footer></body></html>

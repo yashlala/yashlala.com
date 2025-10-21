@@ -1,51 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Yash Lala</title>
-    <link>https://yashlala.com/</link>
-    <description>Recent content on Yash Lala</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yash.lala@yale.edu (Yash Lala)</managingEditor>
-    <webMaster>yash.lala@yale.edu (Yash Lala)</webMaster>
-    <copyright>© Yash Lala</copyright>
-    <lastBuildDate>Fri, 24 May 2024 17:49:06 -0700</lastBuildDate>
-    <atom:link href="https://yashlala.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Anki flashcards for the GRE Vocab Section</title>
-      <link>https://yashlala.com/blog/2024/gre-materials/</link>
-      <pubDate>Fri, 24 May 2024 17:49:06 -0700</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/blog/2024/gre-materials/</guid>
-      <description>&lt;p&gt;Back when I was applying for grad school, I found a great
-&lt;a href=&#34;https://apps.ankiweb.net/&#34;&gt;Anki&lt;/a&gt; deck for the GRE Vocabulary section online.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yash Lala</title><link>https://yashlala.com/</link><description>Recent content on Yash Lala</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>yash.lala@yale.edu (Yash Lala)</managingEditor><webMaster>yash.lala@yale.edu (Yash Lala)</webMaster><copyright>© Yash Lala</copyright><lastBuildDate>Fri, 24 May 2024 17:49:06 -0700</lastBuildDate><atom:link href="https://yashlala.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Anki flashcards for the GRE Vocab Section</title><link>https://yashlala.com/blog/2024/gre-materials/</link><pubDate>Fri, 24 May 2024 17:49:06 -0700</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/blog/2024/gre-materials/</guid><description>&lt;p&gt;Back when I was applying for grad school, I found a great
+&lt;a href="https://apps.ankiweb.net/"&gt;Anki&lt;/a&gt; deck for the GRE Vocabulary section online.
 It&amp;rsquo;s quite complete, and includes memorable pictures for tricky words.&lt;/p&gt;
 &lt;p&gt;Most of the deck is copied from online. I just made some fixes, replaced some
 pictures, and added new words as I encountered them on practice tests.&lt;/p&gt;
-&lt;p&gt;You can download the deck &lt;a href=&#34;gre-vocab-anki.apkg&#34;&gt;here&lt;/a&gt;.
-Maybe you&amp;rsquo;ll find it useful.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Back when I was applying for grad school, I found a great
+&lt;p&gt;You can download the deck &lt;a href="gre-vocab-anki.apkg"&gt;here&lt;/a&gt;.
+Maybe you&amp;rsquo;ll find it useful.&lt;/p&gt;</description><content:encoded><![CDATA[<p>Back when I was applying for grad school, I found a great
 <a href="https://apps.ankiweb.net/">Anki</a> deck for the GRE Vocabulary section online.
 It&rsquo;s quite complete, and includes memorable pictures for tricky words.</p>
 <p>Most of the deck is copied from online. I just made some fixes, replaced some
 pictures, and added new words as I encountered them on practice tests.</p>
 <p>You can download the deck <a href="gre-vocab-anki.apkg">here</a>.
 Maybe you&rsquo;ll find it useful.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Connecting to the Yale VPN from Linux</title>
-      <link>https://yashlala.com/blog/2024/yale-vpn-linux/</link>
-      <pubDate>Mon, 12 Feb 2024 17:49:06 -0700</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/blog/2024/yale-vpn-linux/</guid>
-      <description>&lt;p&gt;In Fall 2023, Yale made some changes to its VPN login system.
+]]></content:encoded></item><item><title>Connecting to the Yale VPN from Linux</title><link>https://yashlala.com/blog/2024/yale-vpn-linux/</link><pubDate>Mon, 12 Feb 2024 17:49:06 -0700</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/blog/2024/yale-vpn-linux/</guid><description>&lt;p&gt;In Fall 2023, Yale made some changes to its VPN login system.
 Instead of asking you for your username and password, the VPN client now
 directs you to a web-based authentication page.&lt;/p&gt;
 &lt;p&gt;This causes some trouble when logging in with &lt;code&gt;openconnect&lt;/code&gt;. Reaching out to
 Yale IT doesn&amp;rsquo;t help here &amp;ndash; they only support Cisco&amp;rsquo;s first-party AnyConnect
 client on Windows/Mac.&lt;/p&gt;
 &lt;p&gt;But there&amp;rsquo;s a workaround. Just tell &lt;code&gt;openconnect&lt;/code&gt; to pretend it&amp;rsquo;s a Cisco
-client:&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In Fall 2023, Yale made some changes to its VPN login system.
+client:&lt;/p&gt;</description><content:encoded><![CDATA[<p>In Fall 2023, Yale made some changes to its VPN login system.
 Instead of asking you for your username and password, the VPN client now
 directs you to a web-based authentication page.</p>
 <p>This causes some trouble when logging in with <code>openconnect</code>. Reaching out to
@@ -112,38 +85,15 @@ may put you in a situation where:</p>
 <p>If none of this works &ndash; you can try opening an existing browser window, <em>then</em>
 trying the scripts above. <code>openconnect</code> should open a tab in the existing
 window, which can sidestep the &ldquo;browser process is root&rdquo; issue.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>CS 183EW: Engineering Ethics</title>
-      <link>https://yashlala.com/vault/class-notes/cs-183ew/</link>
-      <pubDate>Mon, 28 Feb 2022 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/class-notes/cs-183ew/</guid>
-      <description>&lt;p&gt;Taken Winter 2021, with Prof. Gershon Weltman.
-Nicely typeset PDF available &lt;a href=&#34;notes.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Taken Winter 2021, with Prof. Gershon Weltman.
-Nicely typeset PDF available <a href="notes.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>CS 132: Compiler Construction</title>
-      <link>https://yashlala.com/vault/class-notes/cs-132/</link>
-      <pubDate>Fri, 28 Jan 2022 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/class-notes/cs-132/</guid>
-      <description>&lt;p&gt;Taken Fall 2021, with Prof. Jens Palsberg.
+]]></content:encoded></item><item><title>CS 183EW: Engineering Ethics</title><link>https://yashlala.com/vault/class-notes/cs-183ew/</link><pubDate>Mon, 28 Feb 2022 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/class-notes/cs-183ew/</guid><description>&lt;p&gt;Taken Winter 2021, with Prof. Gershon Weltman.
+Nicely typeset PDF available &lt;a href="notes.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded>&lt;p>Taken Winter 2021, with Prof. Gershon Weltman.
+Nicely typeset PDF available &lt;a href="notes.pdf">here&lt;/a>.&lt;/p>
+</content:encoded></item><item><title>CS 132: Compiler Construction</title><link>https://yashlala.com/vault/class-notes/cs-132/</link><pubDate>Fri, 28 Jan 2022 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/class-notes/cs-132/</guid><description>&lt;p&gt;Taken Fall 2021, with Prof. Jens Palsberg.
 What a great class.
-Nicely typeset PDF available &lt;a href=&#34;notes.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Taken Fall 2021, with Prof. Jens Palsberg.
+Nicely typeset PDF available &lt;a href="notes.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded>&lt;p>Taken Fall 2021, with Prof. Jens Palsberg.
 What a great class.
-Nicely typeset PDF available <a href="notes.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Evolution in the Deep Sea</title>
-      <link>https://yashlala.com/vault/binary-search-club/deep-sea-evolution/</link>
-      <pubDate>Sat, 15 Jan 2022 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/binary-search-club/deep-sea-evolution/</guid>
-      <description>&lt;p&gt;My first non-technical and non-historical topic! Today is meant as a change of
+Nicely typeset PDF available &lt;a href="notes.pdf">here&lt;/a>.&lt;/p>
+</content:encoded></item><item><title>Evolution in the Deep Sea</title><link>https://yashlala.com/vault/binary-search-club/deep-sea-evolution/</link><pubDate>Sat, 15 Jan 2022 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/binary-search-club/deep-sea-evolution/</guid><description>&lt;p&gt;My first non-technical and non-historical topic! Today is meant as a change of
 pace before we go on hiatus for the quarter; it&amp;rsquo;s information-light and full of
 pretty pictures of ocean life.&lt;/p&gt;
 &lt;p&gt;In this presentation, I talk about:&lt;/p&gt;
@@ -168,8 +118,7 @@ undersea vents uniquely provide all three.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Slides available &lt;a href=&#34;slides.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>My first non-technical and non-historical topic! Today is meant as a change of
+&lt;p&gt;Slides available &lt;a href="slides.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded><![CDATA[<p>My first non-technical and non-historical topic! Today is meant as a change of
 pace before we go on hiatus for the quarter; it&rsquo;s information-light and full of
 pretty pictures of ocean life.</p>
 <p>In this presentation, I talk about:</p>
@@ -195,14 +144,7 @@ undersea vents uniquely provide all three.</li>
 </li>
 </ol>
 <p>Slides available <a href="slides.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Real Git</title>
-      <link>https://yashlala.com/vault/binary-search-club/real-git/</link>
-      <pubDate>Fri, 31 Dec 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/binary-search-club/real-git/</guid>
-      <description>&lt;p&gt;This presentation is an intermediate-level guide to Git. It also serves as a
+]]></content:encoded></item><item><title>Real Git</title><link>https://yashlala.com/vault/binary-search-club/real-git/</link><pubDate>Fri, 31 Dec 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/binary-search-club/real-git/</guid><description>&lt;p&gt;This presentation is an intermediate-level guide to Git. It also serves as a
 primer to good version control conventions. If you&amp;rsquo;ve found yourself wondering
 why you have spurious &amp;ldquo;merged branch X into X&amp;rdquo; commits after a &lt;code&gt;git pull&lt;/code&gt;, this
 presentation is for you.&lt;/p&gt;
@@ -213,8 +155,7 @@ presentation is for you.&lt;/p&gt;
 &lt;em&gt;beautiful idea&lt;/em&gt; from the &lt;em&gt;inconsistent implementation&lt;/em&gt;.
 Once we see behind the smoke and mirrors, we&amp;rsquo;ll be able to set up git aliases
 that make more sense to us. You&amp;rsquo;ll never have to remember the difference
-between &lt;code&gt;--staged&lt;/code&gt; and &lt;code&gt;--cached&lt;/code&gt; again.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>This presentation is an intermediate-level guide to Git. It also serves as a
+between &lt;code&gt;--staged&lt;/code&gt; and &lt;code&gt;--cached&lt;/code&gt; again.&lt;/p&gt;</description><content:encoded><![CDATA[<p>This presentation is an intermediate-level guide to Git. It also serves as a
 primer to good version control conventions. If you&rsquo;ve found yourself wondering
 why you have spurious &ldquo;merged branch X into X&rdquo; commits after a <code>git pull</code>, this
 presentation is for you.</p>
@@ -227,27 +168,12 @@ Once we see behind the smoke and mirrors, we&rsquo;ll be able to set up git alia
 that make more sense to us. You&rsquo;ll never have to remember the difference
 between <code>--staged</code> and <code>--cached</code> again.</p>
 <p>Slides available <a href="slides.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>CS M151B: Computer Architecture</title>
-      <link>https://yashlala.com/vault/class-notes/cs-m151b/</link>
-      <pubDate>Tue, 28 Dec 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/class-notes/cs-m151b/</guid>
-      <description>&lt;p&gt;Taken Winter 2021, with Prof. Glenn Reinman.
+]]></content:encoded></item><item><title>CS M151B: Computer Architecture</title><link>https://yashlala.com/vault/class-notes/cs-m151b/</link><pubDate>Tue, 28 Dec 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/class-notes/cs-m151b/</guid><description>&lt;p&gt;Taken Winter 2021, with Prof. Glenn Reinman.
 Great class.
-Nicely typeset PDF available &lt;a href=&#34;notes.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Taken Winter 2021, with Prof. Glenn Reinman.
+Nicely typeset PDF available &lt;a href="notes.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded>&lt;p>Taken Winter 2021, with Prof. Glenn Reinman.
 Great class.
-Nicely typeset PDF available <a href="notes.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>The Two Webs</title>
-      <link>https://yashlala.com/vault/binary-search-club/two-webs/</link>
-      <pubDate>Fri, 17 Dec 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/binary-search-club/two-webs/</guid>
-      <description>&lt;p&gt;In this presentation, I talk about a shift in the nature of the World Wide
+Nicely typeset PDF available &lt;a href="notes.pdf">here&lt;/a>.&lt;/p>
+</content:encoded></item><item><title>The Two Webs</title><link>https://yashlala.com/vault/binary-search-club/two-webs/</link><pubDate>Fri, 17 Dec 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/binary-search-club/two-webs/</guid><description>&lt;p&gt;In this presentation, I talk about a shift in the nature of the World Wide
 Web&amp;rsquo;s content delivery systems &amp;ndash; a shift from &amp;ldquo;automatically downloading
 documents via standard formats&amp;rdquo; to &amp;ldquo;portably running applications&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Among other things, I explain:&lt;/p&gt;
@@ -258,8 +184,7 @@ user experience. Eg: web advertising provides disincentives against
 robust protocols for web accessibility.&lt;/li&gt;
 &lt;li&gt;The US legal system&amp;rsquo;s perspective &amp;ndash; ft. the legality of AdBlock.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Slides available &lt;a href=&#34;slides.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In this presentation, I talk about a shift in the nature of the World Wide
+&lt;p&gt;Slides available &lt;a href="slides.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded><![CDATA[<p>In this presentation, I talk about a shift in the nature of the World Wide
 Web&rsquo;s content delivery systems &ndash; a shift from &ldquo;automatically downloading
 documents via standard formats&rdquo; to &ldquo;portably running applications&rdquo;.</p>
 <p>Among other things, I explain:</p>
@@ -271,42 +196,19 @@ robust protocols for web accessibility.</li>
 <li>The US legal system&rsquo;s perspective &ndash; ft. the legality of AdBlock.</li>
 </ul>
 <p>Slides available <a href="slides.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>CS 131: Programming Languages</title>
-      <link>https://yashlala.com/vault/class-notes/cs-131/</link>
-      <pubDate>Sat, 13 Nov 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/class-notes/cs-131/</guid>
-      <description>&lt;p&gt;Taken Winter 2020, with Prof. Paul Eggert.
-Nicely typeset PDF available &lt;a href=&#34;notes.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Taken Winter 2020, with Prof. Paul Eggert.
-Nicely typeset PDF available <a href="notes.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>CS 143: Intro to Databases</title>
-      <link>https://yashlala.com/vault/class-notes/cs-143/</link>
-      <pubDate>Sat, 13 Nov 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/class-notes/cs-143/</guid>
-      <description>&lt;p&gt;Taken Spring 2021, with Prof. John Cho.
-PDF available &lt;a href=&#34;notes.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Taken Spring 2021, with Prof. John Cho.
-PDF available <a href="notes.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Spanner: Google vs the CAP Theorem</title>
-      <link>https://yashlala.com/vault/binary-search-club/spanner/</link>
-      <pubDate>Sun, 17 Oct 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/binary-search-club/spanner/</guid>
-      <description>&lt;p&gt;In this presentation, I explain how Google&amp;rsquo;s
-&lt;a href=&#34;https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf&#34;&gt;Spanner&lt;/a&gt;
+]]></content:encoded></item><item><title>CS 131: Programming Languages</title><link>https://yashlala.com/vault/class-notes/cs-131/</link><pubDate>Sat, 13 Nov 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/class-notes/cs-131/</guid><description>&lt;p&gt;Taken Winter 2020, with Prof. Paul Eggert.
+Nicely typeset PDF available &lt;a href="notes.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded>&lt;p>Taken Winter 2020, with Prof. Paul Eggert.
+Nicely typeset PDF available &lt;a href="notes.pdf">here&lt;/a>.&lt;/p>
+</content:encoded></item><item><title>CS 143: Intro to Databases</title><link>https://yashlala.com/vault/class-notes/cs-143/</link><pubDate>Sat, 13 Nov 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/class-notes/cs-143/</guid><description>&lt;p&gt;Taken Spring 2021, with Prof. John Cho.
+PDF available &lt;a href="notes.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded>&lt;p>Taken Spring 2021, with Prof. John Cho.
+PDF available &lt;a href="notes.pdf">here&lt;/a>.&lt;/p>
+</content:encoded></item><item><title>Spanner: Google vs the CAP Theorem</title><link>https://yashlala.com/vault/binary-search-club/spanner/</link><pubDate>Sun, 17 Oct 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/binary-search-club/spanner/</guid><description>&lt;p&gt;In this presentation, I explain how Google&amp;rsquo;s
+&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf"&gt;Spanner&lt;/a&gt;
 system is implemented &amp;ndash; and how it&amp;rsquo;s performance seemingly defies the
-&lt;a href=&#34;https://en.wikipedia.org/wiki/CAP_theorem&#34;&gt;CAP theorem&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="https://en.wikipedia.org/wiki/CAP_theorem"&gt;CAP theorem&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve tried to keep this presentation accessible to people without a deep
 systems background, but do let me know if you weren&amp;rsquo;t at my
-&lt;a href=&#34;https://yashlala.com/binary-search-club/defining-time&#34;&gt;prior presentation&lt;/a&gt; about distributed
+&lt;a href="https://yashlala.com/binary-search-club/defining-time"&gt;prior presentation&lt;/a&gt; about distributed
 systems. I promise I&amp;rsquo;ll keep an eye on you throughout today&amp;rsquo;s presentation.&lt;/p&gt;
 &lt;p&gt;In this presentation, I:&lt;/p&gt;
 &lt;ul&gt;
@@ -323,8 +225,7 @@ everywhere!).&lt;/li&gt;
 &lt;li&gt;Conclusion: with enough money and hardware, you can create large-scale,
 strongly-consistent, systems &amp;ndash; even when the theoreticians say otherwise.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Slides available &lt;a href=&#34;slides.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In this presentation, I explain how Google&rsquo;s
+&lt;p&gt;Slides available &lt;a href="slides.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded><![CDATA[<p>In this presentation, I explain how Google&rsquo;s
 <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf">Spanner</a>
 system is implemented &ndash; and how it&rsquo;s performance seemingly defies the
 <a href="https://en.wikipedia.org/wiki/CAP_theorem">CAP theorem</a>.</p>
@@ -348,19 +249,12 @@ everywhere!).</li>
 strongly-consistent, systems &ndash; even when the theoreticians say otherwise.</li>
 </ul>
 <p>Slides available <a href="slides.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Computer Terminal Protocols</title>
-      <link>https://yashlala.com/vault/binary-search-club/terminal-protocols/</link>
-      <pubDate>Sun, 03 Oct 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/binary-search-club/terminal-protocols/</guid>
-      <description>&lt;p&gt;Why do terminal emulators still mess up their output when you resize the
+]]></content:encoded></item><item><title>Computer Terminal Protocols</title><link>https://yashlala.com/vault/binary-search-club/terminal-protocols/</link><pubDate>Sun, 03 Oct 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/binary-search-club/terminal-protocols/</guid><description>&lt;p&gt;Why do terminal emulators still mess up their output when you resize the
 window? In this presentation, I walk through the history of UNIX terminals.
 I discuss:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Antique methods of electrical communication, from Morse code to the famous
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Party_line_(telephony)#Barbed_wire_telephone_lines&#34;&gt;barbed wire telephone network&lt;/a&gt;
+&lt;a href="https://en.wikipedia.org/wiki/Party_line_(telephony)#Barbed_wire_telephone_lines"&gt;barbed wire telephone network&lt;/a&gt;
 used by American farmers.&lt;/li&gt;
 &lt;li&gt;A historical example of the difficulties of synchronous communication
 protocols.&lt;/li&gt;
@@ -371,8 +265,7 @@ consequences.&lt;/li&gt;
 &lt;li&gt;Finally: how communication asynchrony, punch cards, and the TTY system
 architecture cause the problems we know and love today.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Slides available &lt;a href=&#34;slides.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Why do terminal emulators still mess up their output when you resize the
+&lt;p&gt;Slides available &lt;a href="slides.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded><![CDATA[<p>Why do terminal emulators still mess up their output when you resize the
 window? In this presentation, I walk through the history of UNIX terminals.
 I discuss:</p>
 <ul>
@@ -389,24 +282,16 @@ consequences.</li>
 architecture cause the problems we know and love today.</li>
 </ul>
 <p>Slides available <a href="slides.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Defining Time in Distributed Systems</title>
-      <link>https://yashlala.com/vault/binary-search-club/defining-time/</link>
-      <pubDate>Sat, 15 May 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/binary-search-club/defining-time/</guid>
-      <description>&lt;p&gt;In this presentation, I talk about:&lt;/p&gt;
+]]></content:encoded></item><item><title>Defining Time in Distributed Systems</title><link>https://yashlala.com/vault/binary-search-club/defining-time/</link><pubDate>Sat, 15 May 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/binary-search-club/defining-time/</guid><description>&lt;p&gt;In this presentation, I talk about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Race conditions in single-machine programming
-(&lt;a href=&#34;https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use&#34;&gt;TOCTOU&lt;/a&gt;, etc).&lt;/li&gt;
+(&lt;a href="https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use"&gt;TOCTOU&lt;/a&gt;, etc).&lt;/li&gt;
 &lt;li&gt;How solving these race conditions necessitates atomic primitives.&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Race conditions&amp;rdquo; in distributed systems (oh no! no more atomics!).&lt;/li&gt;
 &lt;li&gt;The benefits of lax consistency models for distributed systems.&lt;/li&gt;
 &lt;li&gt;A walkthrough of Lamport clocks.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Slides available &lt;a href=&#34;slides.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In this presentation, I talk about:</p>
+&lt;p&gt;Slides available &lt;a href="slides.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded><![CDATA[<p>In this presentation, I talk about:</p>
 <ul>
 <li>Race conditions in single-machine programming
 (<a href="https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use">TOCTOU</a>, etc).</li>
@@ -416,14 +301,7 @@ architecture cause the problems we know and love today.</li>
 <li>A walkthrough of Lamport clocks.</li>
 </ul>
 <p>Slides available <a href="slides.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Containers</title>
-      <link>https://yashlala.com/vault/binary-search-club/containers/</link>
-      <pubDate>Sat, 10 Apr 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/binary-search-club/containers/</guid>
-      <description>&lt;p&gt;What&amp;rsquo;s the difference between a containers and a virtual machine?
+]]></content:encoded></item><item><title>Containers</title><link>https://yashlala.com/vault/binary-search-club/containers/</link><pubDate>Sat, 10 Apr 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/binary-search-club/containers/</guid><description>&lt;p&gt;What&amp;rsquo;s the difference between a containers and a virtual machine?
 How is a hypervisor/kernel actually implemented?
 Do these abstractions add runtime overhead? If so, how much, and &lt;em&gt;where&lt;/em&gt;?&lt;/p&gt;
 &lt;p&gt;This presentation attempts to provide clear, &lt;em&gt;evidence based&lt;/em&gt;, answers to the
@@ -438,12 +316,11 @@ mechanisms, and that this trend will reverse.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The &amp;ldquo;live&amp;rdquo; portion of this presentation consisted of a live demo of various
 Linux namespaces on my laptop, and was mostly lifted from
-&lt;a href=&#34;https://youtu.be/8fi7uSYlOdc&#34;&gt;&amp;ldquo;Containers from Scratch&amp;rdquo;&lt;/a&gt;, a presentation
+&lt;a href="https://youtu.be/8fi7uSYlOdc"&gt;&amp;ldquo;Containers from Scratch&amp;rdquo;&lt;/a&gt;, a presentation
 delivered at GOTO Amsterdam 2018 by
-&lt;a href=&#34;https://www.lizrice.com/&#34;&gt;Liz Rice&lt;/a&gt;.
+&lt;a href="https://www.lizrice.com/"&gt;Liz Rice&lt;/a&gt;.
 I&amp;rsquo;d highly recommend checking out the original talk, which is masterfully done
-(particularly the live code demo).&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>What&rsquo;s the difference between a containers and a virtual machine?
+(particularly the live code demo).&lt;/p&gt;</description><content:encoded><![CDATA[<p>What&rsquo;s the difference between a containers and a virtual machine?
 How is a hypervisor/kernel actually implemented?
 Do these abstractions add runtime overhead? If so, how much, and <em>where</em>?</p>
 <p>This presentation attempts to provide clear, <em>evidence based</em>, answers to the
@@ -464,38 +341,11 @@ delivered at GOTO Amsterdam 2018 by
 I&rsquo;d highly recommend checking out the original talk, which is masterfully done
 (particularly the live code demo).</p>
 <p>Slides available <a href="slides.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Ling 1: Intro to Linguistics</title>
-      <link>https://yashlala.com/vault/class-notes/ling-1/</link>
-      <pubDate>Sun, 28 Mar 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/class-notes/ling-1/</guid>
-      <description>&lt;p&gt;Taken Winter 2021. Fully asynchronous class. PDF available &lt;a href=&#34;notes.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Taken Winter 2021. Fully asynchronous class. PDF available <a href="notes.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>CS 111: Operating Systems</title>
-      <link>https://yashlala.com/vault/class-notes/cs-111/</link>
-      <pubDate>Sat, 28 Dec 2019 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/class-notes/cs-111/</guid>
-      <description>&lt;p&gt;Taken Fall 2019, with Prof. Paul Eggert.
-Nicely typeset PDF available &lt;a href=&#34;notes.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Taken Fall 2019, with Prof. Paul Eggert.
-Nicely typeset PDF available <a href="notes.pdf">here</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hist 3A: History of Science</title>
-      <link>https://yashlala.com/vault/class-notes/hist-3a/</link>
-      <pubDate>Sat, 28 Dec 2019 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author>
-      <guid>https://yashlala.com/vault/class-notes/hist-3a/</guid>
-      <description>&lt;p&gt;Taken Fall 2019, with Prof. Amir Alexander.
-Nicely typeset PDF available &lt;a href=&#34;notes.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Taken Fall 2019, with Prof. Amir Alexander.
-Nicely typeset PDF available <a href="notes.pdf">here</a></p>
-]]></content:encoded>
-    </item>
-  </channel>
-</rss>
+]]></content:encoded></item><item><title>Ling 1: Intro to Linguistics</title><link>https://yashlala.com/vault/class-notes/ling-1/</link><pubDate>Sun, 28 Mar 2021 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/class-notes/ling-1/</guid><description>&lt;p&gt;Taken Winter 2021. Fully asynchronous class. PDF available &lt;a href="notes.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded>&lt;p>Taken Winter 2021. Fully asynchronous class. PDF available &lt;a href="notes.pdf">here&lt;/a>.&lt;/p>
+</content:encoded></item><item><title>CS 111: Operating Systems</title><link>https://yashlala.com/vault/class-notes/cs-111/</link><pubDate>Sat, 28 Dec 2019 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/class-notes/cs-111/</guid><description>&lt;p&gt;Taken Fall 2019, with Prof. Paul Eggert.
+Nicely typeset PDF available &lt;a href="notes.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><content:encoded>&lt;p>Taken Fall 2019, with Prof. Paul Eggert.
+Nicely typeset PDF available &lt;a href="notes.pdf">here&lt;/a>.&lt;/p>
+</content:encoded></item><item><title>Hist 3A: History of Science</title><link>https://yashlala.com/vault/class-notes/hist-3a/</link><pubDate>Sat, 28 Dec 2019 19:14:45 -0800</pubDate><author>yash.lala@yale.edu (Yash Lala)</author><guid>https://yashlala.com/vault/class-notes/hist-3a/</guid><description>&lt;p&gt;Taken Fall 2019, with Prof. Amir Alexander.
+Nicely typeset PDF available &lt;a href="notes.pdf"&gt;here&lt;/a&gt;&lt;/p&gt;</description><content:encoded>&lt;p>Taken Fall 2019, with Prof. Amir Alexander.
+Nicely typeset PDF available &lt;a href="notes.pdf">here&lt;/a>&lt;/p>
+</content:encoded></item></channel></rss>

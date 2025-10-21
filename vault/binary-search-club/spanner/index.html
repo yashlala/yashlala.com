@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-
-<title>Spanner: Google vs the CAP Theorem&nbsp;|&nbsp;Yash Lala</title>
-<meta
-  name="title"
-  content="Spanner: Google vs the CAP Theorem"
-/>
-<meta
-  name="description"
-  content="In this presentation, I explain how Google&rsquo;s
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=/favicon.ico><title>Spanner: Google vs the CAP Theorem&nbsp;|&nbsp;Yash Lala</title><meta name=title content="Spanner: Google vs the CAP Theorem"><meta name=description content="In this presentation, I explain how Google&rsquo;s
 Spanner
 system is implemented &ndash; and how it&rsquo;s performance seemingly defies the
 CAP theorem.
@@ -26,7 +12,7 @@ Introduce the CAP theorem using a hypothetical groupchat as an example.
 Discuss strict and loose consistency models.
 Explain how Spanner provides consistency without angering the CAP theorem.
 
-Explain the underlying theory (clock drift error bounds =&gt; &ldquo;wait out the
+Explain the underlying theory (clock drift error bounds => &ldquo;wait out the
 uncertainty&rdquo;)
 Talk about the expensive hardware that makes this feasible (atomic clocks
 everywhere!).
@@ -35,152 +21,31 @@ everywhere!).
 Conclusion: with enough money and hardware, you can create large-scale,
 strongly-consistent, systems &ndash; even when the theoreticians say otherwise.
 
-Slides available here."
-/>
-<meta
-  name="keywords"
-  content=""
-/>
-
-  <meta name="author" content="Yash Lala" />
-
-
-
-
-<meta property="og:url" content="https://yashlala.com/vault/binary-search-club/spanner/">
-  <meta property="og:site_name" content="Yash Lala">
-  <meta property="og:title" content="Spanner: Google vs the CAP Theorem">
-  <meta property="og:description" content="In this presentation, I explain how Google’s Spanner system is implemented – and how it’s performance seemingly defies the CAP theorem.
+Slides available here."><meta name=keywords content><meta name=author content="Yash Lala"><meta property="og:url" content="https://yashlala.com/vault/binary-search-club/spanner/"><meta property="og:site_name" content="Yash Lala"><meta property="og:title" content="Spanner: Google vs the CAP Theorem"><meta property="og:description" content="In this presentation, I explain how Google’s Spanner system is implemented – and how it’s performance seemingly defies the CAP theorem.
 I’ve tried to keep this presentation accessible to people without a deep systems background, but do let me know if you weren’t at my prior presentation about distributed systems. I promise I’ll keep an eye on you throughout today’s presentation.
 In this presentation, I:
-Introduce the CAP theorem using a hypothetical groupchat as an example. Discuss strict and loose consistency models. Explain how Spanner provides consistency without angering the CAP theorem. Explain the underlying theory (clock drift error bounds =&gt; “wait out the uncertainty”) Talk about the expensive hardware that makes this feasible (atomic clocks everywhere!). Conclusion: with enough money and hardware, you can create large-scale, strongly-consistent, systems – even when the theoreticians say otherwise. Slides available here.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="vault">
-    <meta property="article:published_time" content="2021-10-17T19:14:45-08:00">
-    <meta property="article:modified_time" content="2021-10-17T19:14:45-08:00">
-
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Spanner: Google vs the CAP Theorem">
-  <meta name="twitter:description" content="In this presentation, I explain how Google’s Spanner system is implemented – and how it’s performance seemingly defies the CAP theorem.
+Introduce the CAP theorem using a hypothetical groupchat as an example. Discuss strict and loose consistency models. Explain how Spanner provides consistency without angering the CAP theorem. Explain the underlying theory (clock drift error bounds => “wait out the uncertainty”) Talk about the expensive hardware that makes this feasible (atomic clocks everywhere!). Conclusion: with enough money and hardware, you can create large-scale, strongly-consistent, systems – even when the theoreticians say otherwise. Slides available here."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="vault"><meta property="article:published_time" content="2021-10-17T19:14:45-08:00"><meta property="article:modified_time" content="2021-10-17T19:14:45-08:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Spanner: Google vs the CAP Theorem"><meta name=twitter:description content="In this presentation, I explain how Google’s Spanner system is implemented – and how it’s performance seemingly defies the CAP theorem.
 I’ve tried to keep this presentation accessible to people without a deep systems background, but do let me know if you weren’t at my prior presentation about distributed systems. I promise I’ll keep an eye on you throughout today’s presentation.
 In this presentation, I:
-Introduce the CAP theorem using a hypothetical groupchat as an example. Discuss strict and loose consistency models. Explain how Spanner provides consistency without angering the CAP theorem. Explain the underlying theory (clock drift error bounds =&gt; “wait out the uncertainty”) Talk about the expensive hardware that makes this feasible (atomic clocks everywhere!). Conclusion: with enough money and hardware, you can create large-scale, strongly-consistent, systems – even when the theoreticians say otherwise. Slides available here.">
-
-
-
-
-
-  <meta itemprop="name" content="Spanner: Google vs the CAP Theorem">
-  <meta itemprop="description" content="In this presentation, I explain how Google’s Spanner system is implemented – and how it’s performance seemingly defies the CAP theorem.
+Introduce the CAP theorem using a hypothetical groupchat as an example. Discuss strict and loose consistency models. Explain how Spanner provides consistency without angering the CAP theorem. Explain the underlying theory (clock drift error bounds => “wait out the uncertainty”) Talk about the expensive hardware that makes this feasible (atomic clocks everywhere!). Conclusion: with enough money and hardware, you can create large-scale, strongly-consistent, systems – even when the theoreticians say otherwise. Slides available here."><meta itemprop=name content="Spanner: Google vs the CAP Theorem"><meta itemprop=description content="In this presentation, I explain how Google’s Spanner system is implemented – and how it’s performance seemingly defies the CAP theorem.
 I’ve tried to keep this presentation accessible to people without a deep systems background, but do let me know if you weren’t at my prior presentation about distributed systems. I promise I’ll keep an eye on you throughout today’s presentation.
 In this presentation, I:
-Introduce the CAP theorem using a hypothetical groupchat as an example. Discuss strict and loose consistency models. Explain how Spanner provides consistency without angering the CAP theorem. Explain the underlying theory (clock drift error bounds =&gt; “wait out the uncertainty”) Talk about the expensive hardware that makes this feasible (atomic clocks everywhere!). Conclusion: with enough money and hardware, you can create large-scale, strongly-consistent, systems – even when the theoreticians say otherwise. Slides available here.">
-  <meta itemprop="datePublished" content="2021-10-17T19:14:45-08:00">
-  <meta itemprop="dateModified" content="2021-10-17T19:14:45-08:00">
-  <meta itemprop="wordCount" content="139">
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-    
-    
-    
-    <link href="/bundle.min.css" rel="stylesheet" />
-
-    
-
-    </head>
-
-  <body>
-    <header><nav>
-  <a
-    href="/"
-    
-    >About Me</a
-  >
-
-  <a
-    href="/resume.pdf"
-    
-    >CV</a
-  >
-
-  <a
-    href="/blog/"
-    
-    >Blog</a
-  >
-
-  <a
-    href="/vault/"
-    
-    >Vault</a
-  >
-
-</nav>
-    <h1>Spanner: Google vs the CAP Theorem</h1>
-
-</header>
-    <main>
-      
-  
-  
-  
-  <content>
-    <p>In this presentation, I explain how Google&rsquo;s
-<a href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf">Spanner</a>
+Introduce the CAP theorem using a hypothetical groupchat as an example. Discuss strict and loose consistency models. Explain how Spanner provides consistency without angering the CAP theorem. Explain the underlying theory (clock drift error bounds => “wait out the uncertainty”) Talk about the expensive hardware that makes this feasible (atomic clocks everywhere!). Conclusion: with enough money and hardware, you can create large-scale, strongly-consistent, systems – even when the theoreticians say otherwise. Slides available here."><meta itemprop=datePublished content="2021-10-17T19:14:45-08:00"><meta itemprop=dateModified content="2021-10-17T19:14:45-08:00"><meta itemprop=wordCount content="139"><meta name=referrer content="no-referrer-when-downgrade"><link href=/bundle.min.css rel=stylesheet></head><body><header><nav><a href=/>About Me</a>
+<a href=/resume.pdf>CV</a>
+<a href=/blog/>Blog</a>
+<a href=/vault/>Vault</a></nav><h1>Spanner: Google vs the CAP Theorem</h1></header><main><content><p>In this presentation, I explain how Google&rsquo;s
+<a href=https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf>Spanner</a>
 system is implemented &ndash; and how it&rsquo;s performance seemingly defies the
-<a href="https://en.wikipedia.org/wiki/CAP_theorem">CAP theorem</a>.</p>
-<p>I&rsquo;ve tried to keep this presentation accessible to people without a deep
+<a href=https://en.wikipedia.org/wiki/CAP_theorem>CAP theorem</a>.</p><p>I&rsquo;ve tried to keep this presentation accessible to people without a deep
 systems background, but do let me know if you weren&rsquo;t at my
-<a href="/binary-search-club/defining-time">prior presentation</a> about distributed
-systems. I promise I&rsquo;ll keep an eye on you throughout today&rsquo;s presentation.</p>
-<p>In this presentation, I:</p>
-<ul>
-<li>Introduce the CAP theorem using a hypothetical groupchat as an example.</li>
-<li>Discuss strict and loose consistency models.</li>
-<li>Explain how Spanner provides consistency without angering the CAP theorem.
-<ul>
-<li>Explain the underlying theory (clock drift error bounds =&gt; &ldquo;wait out the
-uncertainty&rdquo;)</li>
-<li>Talk about the expensive hardware that makes this feasible (atomic clocks
-everywhere!).</li>
-</ul>
-</li>
-<li>Conclusion: with enough money and hardware, you can create large-scale,
-strongly-consistent, systems &ndash; even when the theoreticians say otherwise.</li>
-</ul>
-<p>Slides available <a href="slides.pdf">here</a>.</p>
-
-  </content>
-  
-
-    </main>
-    <footer>
-      
-  <span>© Yash Lala</span>
-
-<span> 
-  |
-  <a href="/index.xml">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512">
-      
-      <path
-        d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
-      />
-    </svg>
-    RSS
-  </a>
-</span>
-<span>
-  |
-  Made with
-  <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
-</span>
-
-    </footer>
-  </body>
-</html>
+<a href=/binary-search-club/defining-time>prior presentation</a> about distributed
+systems. I promise I&rsquo;ll keep an eye on you throughout today&rsquo;s presentation.</p><p>In this presentation, I:</p><ul><li>Introduce the CAP theorem using a hypothetical groupchat as an example.</li><li>Discuss strict and loose consistency models.</li><li>Explain how Spanner provides consistency without angering the CAP theorem.<ul><li>Explain the underlying theory (clock drift error bounds => &ldquo;wait out the
+uncertainty&rdquo;)</li><li>Talk about the expensive hardware that makes this feasible (atomic clocks
+everywhere!).</li></ul></li><li>Conclusion: with enough money and hardware, you can create large-scale,
+strongly-consistent, systems &ndash; even when the theoreticians say otherwise.</li></ul><p>Slides available <a href=slides.pdf>here</a>.</p></content></main><footer><span>© Yash Lala</span>
+<span>|
+<a href=/index.xml><svg class="icon" viewBox="0 0 448 512"><path d="M0 64C0 46.3 14.3 32 32 32c229.8.0 416 186.2 416 416 0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96 14.3 96 0 81.7.0 64zM0 416a64 64 0 11128 0A64 64 0 110 416zM32 160c159.1.0 288 128.9 288 288 0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224-17.7.0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+RSS
+</a></span><span>|
+Made with
+<a href=https://github.com/maolonglong/hugo-simple/>Hugo ʕ•ᴥ•ʔ Simple</a></span></footer></body></html>
