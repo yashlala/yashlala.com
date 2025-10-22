@@ -39,10 +39,9 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params.author]
     name = "Yash Lala"
-    email = "yash.lala@yale.edu"
-    github = "https://github.com/yashlala"
-    linkedin = "https://www.linkedin.com/in/yashlala/"
-    headshot = "img/.png"
+    email = "yash@yashlala.com"
+    github = "yashlala"
+    linkedin = "yashlala"
 
 [[menu.main]]
     name = "About Me"

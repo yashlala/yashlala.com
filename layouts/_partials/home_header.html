@@ -12,13 +12,13 @@
   </div>
   <div class="homepage-header__contact-info">
     <div>
-      <a title="Email" href="mailto:{{ site.Params.author.email }}">{{- partial "svg/email.svg" -}}Email</a>
+      <a title="Email" href="mailto:{{- site.Params.author.email -}}">{{- partial "svg/email.svg" -}}Email: {{ site.Params.author.email }}</a>
     </div>
     <div>
-      <a title="GitHub" href="{{ site.Params.author.github }}">{{- partial "svg/github.svg" -}}GitHub</a>
+      <a title="GitHub" href="https://github.com/{{- site.Params.author.github -}}">{{- partial "svg/github.svg" -}}GitHub: {{ site.Params.author.github }}</a>
     </div>
     <div>
-      <a title="LinkedIn" href="{{- site.Params.author.linkedin -}}">{{- partial "svg/linkedin.svg" -}}LinkedIn</a>
+      <a title="LinkedIn" href="https://www.linkedin.com/in/{{- site.Params.author.linkedin -}}/">{{- partial "svg/linkedin.svg" -}}LinkedIn: {{ site.Params.author.linkedin }}</a>
     </div>
   </div>
 </div>

@@ -12,5 +12,5 @@ efficient data-center scale computing, although my recent work focuses on
 [disaggregated memory](https://arxiv.org/pdf/2202.02223.pdf) systems. 
 
 If you'd like to chat, you can reach out to me at
-<a href="mailto:yash.lala@yale.edu">yash.lala@yale.edu</a>, 
+<a href="mailto:yash@yashlala.com">yash@yashlala.com</a>, 
 or via the links at the top of the page. 
