@@ -1,3 +1,0 @@
-/docs/*                      /vault/:splat    301
-/posts/*                     /blog/:splat     301
-/yash-lala-resume.pdf        /resume.pdf      301
