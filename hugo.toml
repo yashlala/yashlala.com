@@ -75,6 +75,11 @@ ignoreErrors = ["error-disable-taxonomy"]
     taxonomy = ["html"]
     term = ["html"]
 
+# Controls quality of Hugo-generated image variants (AVIF, WebP, JPG).
+# Default is 75; 80 gives slightly better fidelity for profile photos.
+[imaging]
+  quality = 80
+
 [markup.goldmark.renderer]
     unsafe = true
 

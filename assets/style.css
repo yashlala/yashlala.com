@@ -60,12 +60,17 @@ div.highlight pre span {
   column-gap: 4em;
 }
 
-.homepage-header__avatar { 
+.homepage-header__avatar {
   width: 160px;
   height: 160px;
   border-radius: 20%;
 }
 
+.homepage-header__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .homepage-header__contact-info { 
   display: inline-flex;
   flex-direction: column;
