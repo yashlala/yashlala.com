@@ -16,5 +16,8 @@ build:
 update-simplecss:
   curl -fSL https://cdn.simplecss.org/simple.css -o ./assets/simple.css
 
+deploy: build
+  cd build && git add -A && git commit -m "Automatic deploy" && git push
+
 clean:
   rm -r public
